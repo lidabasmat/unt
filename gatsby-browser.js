@@ -1,2 +1,3 @@
-import 'typeface-open-sans';
+import "@fontsource/el-messiri";
+import "@fontsource/roboto";
 import './src/styles/main.css';

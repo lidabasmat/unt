@@ -6,8 +6,8 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            display: ['Open Sans', 'Helvetica', 'sans-serif'],
-            body: ['Open Sans', 'Helvetica', 'sans-serif'],
+            display: ['El Messiri', 'Helvetica', 'sans-serif'],
+            body: ['Roboto', 'Helvetica', 'sans-serif'],
         },
         fontSize: {
             xs: ['0.75rem',      '1.5'],
@@ -16,12 +16,15 @@ module.exports = {
             lg: ['1.125rem',     '1.75'],
             xl: ['1.25rem',      '1.75'],
             '2xl': ['1.5rem',    '2'],
-            '3xl': ['1.875rem',  '2.5'],
-            '4xl': ['2.25rem',   '3'],
-            '5xl': ['3rem',      '3.5'],
+            '3xl': ['1.875rem',  '1'],
+            '4xl': ['2.375rem',   '1'],
+            '5xl': ['3rem',      '1'],
         },
         extend: {
             colors: {
+              red: {
+                500: '#FF2828',
+              },
             },
             margin: {
                 '1/12': '8.333333%',
