@@ -1,4 +1,0 @@
----
-id: dvorianyn
-title: Дворянин
----

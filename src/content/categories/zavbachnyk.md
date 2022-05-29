@@ -1,4 +1,0 @@
----
-id: zavbachnyk
-title: Завбачник
----

@@ -1,4 +1,0 @@
----
-id: budynok
-title: Будинок
----

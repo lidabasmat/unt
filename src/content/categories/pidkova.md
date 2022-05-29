@@ -1,4 +1,0 @@
----
-id: pidkova
-title: Підкова
----
