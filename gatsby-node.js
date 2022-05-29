@@ -34,7 +34,7 @@ exports.createSchemaCustomization = ({ actions }) => {
   createTypes(typeDefs)
 };
 
-export.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDigest }) => {
+exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDigest }) => {
   const { createNodeField, createNode } = actions;
 
   if (node.internal.type === 'Mdx') {
@@ -90,6 +90,36 @@ export.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDige
 
 };
 
-export.createPages = () => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
+  const { createPage } = actions;
+
+  const jokeTemplate = path.resolve('src/templates/joke.jsx');
+
+  const result = await graphql(`
+      {
+        jokes: allJoke {
+          nodes {
+            slug
+          }
+        }
+      }
+  `);
+
+  if (result.errors) {
+    rporter.panicOnBuild('Build failed while running GraphQL query');
+    return;
+  }
+
+  const jokes = result.data.jokes.nodes;
+
+  jokes.forEach((joke) => {
+    createPage({
+      path: joke.slug,
+      component: jokeTemplate,
+      context: {
+        slug: joke.slug,
+      },
+    });
+  });
 
 };
