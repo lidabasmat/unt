@@ -11,6 +11,20 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `jokes`,
+        path: `${__dirname}/src/content/jokes`,
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `categories`,
+        path: `${__dirname}/src/content/categories`,
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "gatsby-starter-kit",
