@@ -2,8 +2,8 @@
 import { MDXProvider } from '@mdx-js/react';
 import React from 'react';
 
-import Link from '../components/Link';
-import List from '../components/List';
+import Link from '../Link';
+import List from '../List';
 
 import PropTypes from '../../utils/PropTypes';
 
