@@ -58,7 +58,7 @@
 
   .container-lg {
     @apply mx-auto px-4;
-    max-width: 1300px;
+    max-width: 1200px;
   }
 
   .container-md {
