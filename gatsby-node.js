@@ -24,7 +24,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       type Joke implements Node {
         slug: String
         title: String
-        category: Category @link
+        category: Category @link(by: "id")
         content: Mdx
         meta: MetaFields
       }

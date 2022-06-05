@@ -24,7 +24,7 @@ const CategoriesPage = () => {
             </Link>
           </div>
           <div className="col-full md:col-6 mt-5 md:mt-0">
-            <Link to="/jokes/" className="block bg-red-500 text-white px-4 py-4 h-full">
+            <Link to="/songs/" className="block bg-red-500 text-white px-4 py-4 h-full">
               <h2 className="typo-h2">
                 пісні
               </h2>
