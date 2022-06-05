@@ -4,7 +4,7 @@ import Link from '../components/Link';
 const Footer = () => {
   return (
     <>
-      <footer className="bg-red-500 text-white py-10">
+      <footer className="bg-black text-white py-10">
         <div className="container-lg">
           <div className="flex items-center justify-between">
             <small className="typo-small">

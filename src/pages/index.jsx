@@ -28,7 +28,7 @@ const IndexPage = () => {
       <div className="bg-red-500 text-white">
         <div className="container-lg">
           <div className="row items-center">
-            <div className="col-full md:col-6 mt-3">
+            <div className="col-full md:col-6 py-10 md:py-24">
               <h1 className="typo-h1 max-w-sm">
                 перлини української народної творчості
               </h1>
@@ -36,10 +36,7 @@ const IndexPage = () => {
                 детальніше
               </button>
             </div>
-            <div className="col-full md:col-6 mt-3">
-              <Image
-                image={getImage(data.ornament1Image)}
-              />
+            <div className="col-full md:col-6">
             </div>
           </div>
         </div>
