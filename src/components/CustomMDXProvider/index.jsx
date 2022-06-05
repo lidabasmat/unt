@@ -25,15 +25,6 @@ const linkDefaultProps = {
   href: null,
 };
 
-const buttonPropTypes = {
-  children: PropTypes.node,
-  to: PropTypes.string,
-};
-const buttonDefaultProps = {
-  children: null,
-  to: null,
-};
-
 const Heading2 = ({ children }) => (
   <h2 className="typo-h3">
     {children}
