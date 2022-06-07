@@ -15,16 +15,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       }
     `,
     `
-      type Category implements Node {
-        id: String!
-        title: String
-      }
-    `,
-    `
       type Joke implements Node {
         slug: String
         title: String
-        category: Category @link(by: "id")
+        category: String
         content: Mdx
         meta: MetaFields
       }
@@ -68,26 +62,7 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
         ...jokeContent,
       });
     }
-
-    if (parent.internal.type === 'File' && parent.sourceInstanceName === 'categories') {
-      const categoryContent = {
-        title: node.frontmatter.title,
-        content: node,
-      };
-
-      createNode({
-        id: createNodeId(`category-${node.id}`),
-        parent: node.id,
-        children: [],
-        internal: {
-          type: 'Category',
-          contentDigest: createContentDigest(categoryContent),
-        },
-        ...categoryContent,
-      });
-    }
   }
-
 };
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
