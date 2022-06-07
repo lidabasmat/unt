@@ -41,7 +41,7 @@ List.defaultProps = {
     as: null,
     children: null,
     className: '',
-    iconClassName: 'text-indigo-600',
+    iconClassName: 'text-red-500',
     type: null,
 };
 
@@ -59,7 +59,7 @@ const ListItem = ({ children, className, iconClassName, type }) => (
                 type={type}
                 className={classnames(
                     iconClassName,
-                    'mt-1 mr-2.5 h-6 w-6',
+                    'mr-2.5 h-6 w-6',
                 )}
             />
         )}

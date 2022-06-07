@@ -5,20 +5,21 @@ import React from 'react';
 import CustomMDXProvider from '../components/CustomMDXProvider';
 import Seo from '../components/Seo';
 
-const JokePage = ({ data }) => {
-  const { joke } = data;
+const SongPage = ({ data }) => {
+  const { song } = data;
 
   return (
     <>
       <Seo
-        title={`${joke.title} - Українська сміховина`}
+        title={`${song.title} - Українська пісня`}
+        description={`${song.title}: текст пісні`}
       />
       <div className="container-md py-10 md:py-20">
-        <h1 className="typo-h1">{joke.title}</h1>
+        <h1 className="typo-h1">{song.title}</h1>
         <div className="mt-5 md:mt-10">
           <CustomMDXProvider>
             <MDXRenderer>
-              {joke.content.body}
+              {song.content.body}
             </MDXRenderer>
           </CustomMDXProvider>
         </div>
@@ -27,11 +28,11 @@ const JokePage = ({ data }) => {
   )
 };
 
-export default JokePage;
+export default SongPage;
 
 export const pageQuery = graphql`
   query($slug: String!) {
-    joke: joke(slug: { eq: $slug }) {
+    song: song(slug: { eq: $slug }) {
       title
       content {
         body

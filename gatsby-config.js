@@ -1,6 +1,12 @@
+const siteUrl = 'https://punt.com.ua';
+
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: 'Перлини української народної творчості',
+    description: 'Перлини української народної творчості',
+    author: '@lidabasmat',
+    siteUrl: siteUrl,
+    image: '/images/unt-share-image.png',
   },
   plugins: [
     {
@@ -20,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `categories`,
-        path: `${__dirname}/src/content/categories`,
+        name: `songs`,
+        path: `${__dirname}/src/content/songs`,
       }
     },
     {

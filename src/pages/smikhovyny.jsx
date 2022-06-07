@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import Link from '../components/Link';
+import Seo from '../components/Seo';
 
 const JokesPage = () => {
   const data = useStaticQuery(graphql`
@@ -220,6 +221,9 @@ const JokesPage = () => {
 
   return (
     <>
+      <Seo
+        title="Сміховини"
+      />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
           <h1 className="typo-h1 text-white">

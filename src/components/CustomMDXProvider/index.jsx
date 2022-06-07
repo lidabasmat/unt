@@ -125,9 +125,9 @@ const defaultProps = {
 };
 
 const Pre = ({ children }) => (
-  <span className="block bg-gray-50 rounded-md p-6 overflow-x-auto">
+  <p className="typo-body block overflow-x-auto">
     {children}
-  </span>
+  </p>
 );
 Pre.propTypes = basicPropTypes;
 Pre.defaultProps = basicDefaultProps;

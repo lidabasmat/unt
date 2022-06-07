@@ -14,24 +14,16 @@ const Header = () => {
               <img src={IconCartLogo} alt="logo" />
             </Link>
             <nav className="hidden md:flex items-center">
-              <Link to="/about/" className="typo-intro text-white">
-                проєкт
-              </Link>
-              <div className="w-2 h-2 mx-8 bg-white" />
-              <Link to="/songs/" className="typo-intro text-white">
+              <Link to="/pisni/" className="typo-intro text-white">
                 пісні
               </Link>
               <div className="w-2 h-2 mx-8 bg-white" />
-              <Link to="/jokes/" className="typo-intro text-white">
+              <Link to="/smikhovyny/" className="typo-intro text-white">
                 сміховини
               </Link>
               <div className="w-2 h-2 mx-8 bg-white" />
               <Link to="/categories/" className="typo-intro text-white">
                 категорії
-              </Link>
-              <div className="w-2 h-2 mx-8 bg-white" />
-              <Link to="/contacts" className="typo-intro text-white">
-                контакти
               </Link>
             </nav>
           </div>

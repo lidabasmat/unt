@@ -10,9 +10,6 @@ const Footer = () => {
             <small className="typo-small">
               &copy; 2022 УНТ
             </small>
-            <Link to="/privacy/" className="typo-small">
-              Політика конфіденційності
-            </Link>
           </div>
         </div>
       </footer>
