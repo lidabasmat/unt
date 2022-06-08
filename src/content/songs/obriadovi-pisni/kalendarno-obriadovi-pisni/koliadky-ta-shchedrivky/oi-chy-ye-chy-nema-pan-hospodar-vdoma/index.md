@@ -34,4 +34,4 @@ has_youtube: true
 
 ## Запис виконання щедрівки "Ой чи є, чи нема пан господар вдома"
 
-<YoutubeIframe id="wQrXybA2CoQ" />
+<YoutubeIframe id="wQrXybA2CoQ" className="md:w-4/5" />

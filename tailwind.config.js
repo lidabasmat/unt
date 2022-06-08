@@ -3,6 +3,7 @@
 module.exports = {
     content: [
         'src/**/*.jsx',
+        'src/content/**/*.md',
     ],
     theme: {
         fontFamily: {
