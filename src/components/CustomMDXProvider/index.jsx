@@ -4,6 +4,7 @@ import React from 'react';
 
 import Link from '../Link';
 import List from '../List';
+import YoutubeIframe from '../YoutubeIframe';
 
 import PropTypes from '../../utils/PropTypes';
 
@@ -149,6 +150,7 @@ const CustomMDXProvider = ({ children }) => (
         a: InlineLink,
         Table: CustomTable,
         code: Pre,
+        YoutubeIframe: YoutubeIframe,
       }}
     >
       <div className={styles.content}>
