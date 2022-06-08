@@ -40,9 +40,9 @@ const SongsPage = () => {
                     <span className="mx-4">
                       *
                     </span>
-                    <span>
+                    <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/vesnianky/">
                       Веснянки
-                    </span>
+                    </Link>
                   </li>
                   <li className="typo-small">
                     <span className="mx-4">
