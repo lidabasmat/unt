@@ -12,10 +12,24 @@ const KoliadkyTaShchedrivkyPage = () => {
           slug
         }
       }
+      songs2: allSong(filter: {category: {eq: "koliadky-ta-shchedrivky-hospodyni"}}) {
+        nodes {
+          title
+          slug
+        }
+      }
+      songs3: allSong(filter: {category: {eq: "koliadky-ta-shchedrivky-parubkovi"}}) {
+        nodes {
+          title
+          slug
+        }
+      }
     }
   `);
 
   const songs1 = data.songs1.nodes;
+  const songs2 = data.songs2.nodes;
+  const songs3 = data.songs3.nodes;
 
   return (
     <>
@@ -29,12 +43,40 @@ const KoliadkyTaShchedrivkyPage = () => {
           </h1>
         </div>
       </div>
-      <div className="container-lg py-10 md:py-24">
+      <div className="container-lg pt-10 md:pt-24 pb-10">
         <h2 className="typo-h2">
           Колядки та щедрівки господарю та його родині
         </h2>
         <div className="row mt-4">
           {songs1.map((song) => (
+            <div className="col-full md:col-4 mb-4">
+              <Link to={song.slug} className="typo-small">
+                {song.title}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="container-lg py-10 md:py-10">
+        <h2 className="typo-h2">
+          Колядки та щедрівки господині
+        </h2>
+        <div className="row mt-4">
+          {songs2.map((song) => (
+            <div className="col-full md:col-4 mb-4">
+              <Link to={song.slug} className="typo-small">
+                {song.title}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="container-lg py-10 md:py-10">
+        <h2 className="typo-h2">
+          Колядки та щедрівки парубкові
+        </h2>
+        <div className="row mt-4">
+          {songs3.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small">
                 {song.title}
