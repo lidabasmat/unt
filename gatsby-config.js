@@ -1,4 +1,4 @@
-const siteUrl = 'https://punt.com.ua';
+const siteUrl = 'https://folklore.com.ua';
 
 module.exports = {
   siteMetadata: {
@@ -81,6 +81,40 @@ module.exports = {
           "G-8V6PS3Y0XB",
         ]
       }
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: siteUrl,
+        stripQueryString: true,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        query: `
+          {
+            allSitePage {
+              nodes {
+                path
+              }
+            }
+          }
+        `,
+        resolveSiteUrl: () => siteUrl,
+        resolvePages: ({
+          allSitePage: { nodes: allPages },
+        }) => {
+          return allPages.map(page => {
+            return { ...page }
+          })
+        },
+        serialize: ({ path }) => {
+          return {
+            url: path,
+          }
+        },
+      },
     },
   ]
 }
