@@ -1,6 +1,6 @@
 import classnames from 'classnames';
 import React from 'react';
-import { Link } from '../Link';
+import Link from '../Link';
 
 import PropTypes from '../../utils/PropTypes';
 import warning from '../../utils/warning';
