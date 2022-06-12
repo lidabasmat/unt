@@ -4,9 +4,10 @@ import React from 'react';
 
 import CustomMDXProvider from '../components/CustomMDXProvider';
 import Seo from '../components/Seo';
+import ShareButtons from '../components/ShareButtons';
 
-const JokePage = ({ data }) => {
-  const { joke } = data;
+const JokePage = ({ data, location }) => {
+  const { joke, site } = data;
 
   return (
     <>
@@ -14,7 +15,9 @@ const JokePage = ({ data }) => {
         title={`${joke.title} - Українська сміховина`}
       />
       <div className="container-md py-10 md:py-20">
-        <h1 className="typo-h1">{joke.title}</h1>
+        <h1 className="typo-h1">
+          {joke.title}
+        </h1>
         <div className="mt-5 md:mt-10">
           <CustomMDXProvider>
             <MDXRenderer>
@@ -22,6 +25,11 @@ const JokePage = ({ data }) => {
             </MDXRenderer>
           </CustomMDXProvider>
         </div>
+        <ShareButtons
+          className="mt-5 md:mt-10"
+          title={joke.title}
+          url={`${site.siteMetadata.siteUrl}${location.pathname}`}
+        />
       </div>
     </>
   )
@@ -35,6 +43,11 @@ export const pageQuery = graphql`
       title
       content {
         body
+      }
+    }
+    site {
+      siteMetadata {
+        siteUrl
       }
     }
   }
