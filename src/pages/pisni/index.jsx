@@ -27,8 +27,8 @@ const SongsPage = () => {
                 <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/">
                   Календарно-обрядові пісні
                 </Link>
-                <ul className="flex mt-4">
-                  <li className="typo-small">
+                <ul className="md:flex">
+                  <li className="typo-small mt-4">
                     <span className="mx-4">
                       *
                     </span>
@@ -36,7 +36,7 @@ const SongsPage = () => {
                       Колядки та щедрівки
                     </Link>
                   </li>
-                  <li className="typo-small">
+                  <li className="typo-small mt-4">
                     <span className="mx-4">
                       *
                     </span>
@@ -44,7 +44,7 @@ const SongsPage = () => {
                       Веснянки
                     </Link>
                   </li>
-                  <li className="typo-small">
+                  <li className="typo-small mt-4">
                     <span className="mx-4">
                       *
                     </span>
@@ -52,7 +52,7 @@ const SongsPage = () => {
                       Русальні та петровочні
                     </span>
                   </li>
-                  <li className="typo-small">
+                  <li className="typo-small mt-4">
                     <span className="mx-4">
                       *
                     </span>
@@ -60,7 +60,7 @@ const SongsPage = () => {
                       Купальскі пісні
                     </span>
                   </li>
-                  <li className="typo-small">
+                  <li className="typo-small mt-4">
                     <span className="mx-4">
                       *
                     </span>
