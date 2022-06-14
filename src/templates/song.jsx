@@ -26,6 +26,9 @@ const SongPage = ({ data, location }) => {
           </MDXRenderer>
         </CustomMDXProvider>
       </div>
+      <div>
+        <h3 className="typo-h3 mt-5 md:mt-14">Поділитися:</h3>
+      </div>
       <ShareButtons
         className="mt-5 md:mt-10"
         title={song.title}
