@@ -353,30 +353,6 @@ const JokesPage = () => {
           ))}
         </div>
         <h2 className="typo-h2 mt-8">
-          Ї
-        </h2>
-        <div className="row mt-4">
-          {jokes11.map((joke) => (
-            <div className="col-full md:col-4 mb-4">
-              <Link to={joke.slug} className="typo-small">
-                {joke.title}
-              </Link>
-            </div>
-          ))}
-        </div>
-        <h2 className="typo-h2 mt-8">
-          Й
-        </h2>
-        <div className="row mt-4">
-          {jokes12.map((joke) => (
-            <div className="col-full md:col-4 mb-4">
-              <Link to={joke.slug} className="typo-small">
-                {joke.title}
-              </Link>
-            </div>
-          ))}
-        </div>
-        <h2 className="typo-h2 mt-8">
           К
         </h2>
         <div className="row mt-4">
@@ -561,18 +537,6 @@ const JokesPage = () => {
         </h2>
         <div className="row mt-4">
           {jokes28.map((joke) => (
-            <div className="col-full md:col-4 mb-4">
-              <Link to={joke.slug} className="typo-small">
-                {joke.title}
-              </Link>
-            </div>
-          ))}
-        </div>
-        <h2 className="typo-h2 mt-8">
-          Ю
-        </h2>
-        <div className="row mt-4">
-          {jokes29.map((joke) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={joke.slug} className="typo-small">
                 {joke.title}
