@@ -50,17 +50,17 @@ const ObriadoviPisniPage = () => {
                 <span className="mx-4">
                   *
                 </span>
-                <span>
+                <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/kupalski-pisni/">
                   Купальскі пісні
-                </span>
+                </Link>
               </li>
               <li className="typo-small">
                 <span className="mx-4">
                   *
                 </span>
-                <span>
+                <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/zhnyvarski-pisni/">
                   Жниварські пісні
-                </span>
+                </Link>
               </li>
             </ul>
           </li>

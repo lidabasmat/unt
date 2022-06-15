@@ -23,24 +23,24 @@ const KalendarnoObriadoviPisniPage = () => {
             </Link>
           </li>
           <li className="typo-h4">
-            <span>
+            <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/vesnianky/">
               Веснянки
-            </span>
+            </Link>
           </li>
           <li className="typo-h4">
-            <span>
-              Русальні та петровочні
-            </span>
+            <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrovochni-pisni/">
+              Русальні та петровочні пісні
+            </Link>
           </li>
           <li className="typo-h4">
-            <span>
+            <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/kupalski-pisni/">
               Купальскі пісні
-            </span>
+            </Link>
           </li>
           <li className="typo-h4">
-            <span>
+            <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/zhnyvarski-pisni/">
               Жниварські пісні
-            </span>
+            </Link>
           </li>
         </ul>
       </div>
