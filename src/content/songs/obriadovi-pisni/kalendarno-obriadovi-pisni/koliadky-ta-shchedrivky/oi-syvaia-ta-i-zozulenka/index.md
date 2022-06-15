@@ -2,6 +2,7 @@
 slug: oi-syvaia-ta-i-zozulenka
 title: Ой сивая та і зозуленька
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
+hasYoutube: true
 ---
 Ой сивая та і зозуленька
 

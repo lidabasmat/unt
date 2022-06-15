@@ -2,6 +2,7 @@
 slug: blahoslovy-maty
 title: Благослови, мати
 category: vesnianky
+hasYoutube: true
 ---
 ```
 Благослови, мати,

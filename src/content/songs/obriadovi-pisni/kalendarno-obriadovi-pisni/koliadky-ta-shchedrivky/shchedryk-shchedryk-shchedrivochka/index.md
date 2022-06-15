@@ -2,6 +2,7 @@
 slug: shchedryk-shchedryk-shchedrivochka
 title: Щедрик, щедрик, щедрівочка
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
+hasYoutube: true
 ---
 ```
 Щедрик, щедрик, щедрівочка,

@@ -2,6 +2,7 @@
 slug: a-vzhe-vesna-a-vzhe-krasna
 title: А вже весна, а вже красна
 category: vesnianky
+hasYoutube: true
 ---
 ```
 А вже весна, а вже красна,

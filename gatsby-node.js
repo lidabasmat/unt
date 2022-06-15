@@ -28,6 +28,7 @@ exports.createSchemaCustomization = ({ actions }) => {
         slug: String
         title: String
         category: String
+        hasYoutube: Boolean
         content: Mdx
         meta: MetaFields
       }
@@ -77,6 +78,7 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
         slug: `/pisni${createFilePath({ node, getNode })}`,
         title: node.frontmatter.title,
         category: node.frontmatter.category,
+        hasYoutube: node.frontmatter.hasYoutube,
         content: node,
         meta: node.frontmatter.meta,
       };

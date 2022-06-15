@@ -2,6 +2,7 @@
 slug: v-tsomu-dvorku-yak-u-vinku
 title: В цьому дворку, як у вінку
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
+hasYoutube: true
 ---
 У цьому дворку, як у вінку.
 

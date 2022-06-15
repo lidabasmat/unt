@@ -2,6 +2,7 @@
 slug: a-ya-znaiu-shcho-pan-doma
 title: А я знаю, що пан дома
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
+hasYoutube: true
 ---
 А я знаю, що пан дома,
 

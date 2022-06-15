@@ -48,9 +48,9 @@ const SongsPage = () => {
                     <span className="mx-4">
                       *
                     </span>
-                    <span>
-                      Русальні та петровочні
-                    </span>
+                    <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrovochni-pisni/">
+                      Русальні та петровочні пісні
+                    </Link>
                   </li>
                   <li className="typo-small mt-4">
                     <span className="mx-4">

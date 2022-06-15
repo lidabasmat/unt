@@ -1,5 +1,8 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
+
+import YoutubeIcon from '../../../../../components/icons/YoutubeIcon';
+
 import Link from '../../../../../components/Link';
 import Seo from '../../../../../components/Seo';
 
@@ -10,18 +13,21 @@ const KoliadkyTaShchedrivkyPage = () => {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       songs2: allSong(filter: {category: {eq: "koliadky-ta-shchedrivky-hospodyni"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       songs3: allSong(filter: {category: {eq: "koliadky-ta-shchedrivky-parubkovi"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
     }
@@ -50,8 +56,11 @@ const KoliadkyTaShchedrivkyPage = () => {
         <div className="row mt-4">
           {songs1.map((song) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={song.slug} className="typo-small">
+              <Link to={song.slug} className="typo-small flex items-center">
                 {song.title}
+                {song.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -64,8 +73,11 @@ const KoliadkyTaShchedrivkyPage = () => {
         <div className="row mt-4">
           {songs2.map((song) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={song.slug} className="typo-small">
+              <Link to={song.slug} className="typo-small flex items-center">
                 {song.title}
+                {song.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -78,8 +90,11 @@ const KoliadkyTaShchedrivkyPage = () => {
         <div className="row mt-4">
           {songs3.map((song) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={song.slug} className="typo-small">
+              <Link to={song.slug} className="typo-small flex items-center">
                 {song.title}
+                {song.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}

@@ -2,6 +2,7 @@
 slug: teche-richka-nevelychka
 title: Тече річка невеличка
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
+hasYoutube: true
 ---
 Тече річка невеличка,
 

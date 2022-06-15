@@ -6,10 +6,10 @@ import YoutubeIcon from '../../../../../components/icons/YoutubeIcon';
 import Link from '../../../../../components/Link';
 import Seo from '../../../../../components/Seo';
 
-const VesniankyPage = () => {
+const RusalniTaPetrovochniPisniPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      songs: allSong(filter: {category: {eq: "vesnianky"}}) {
+      songs: allSong(filter: {category: {eq: "rusalni-ta-petrovochni-pisni"}}) {
         nodes {
           title
           slug
@@ -24,12 +24,12 @@ const VesniankyPage = () => {
   return (
     <>
       <Seo
-        title="Веснянки"
+        title="Русальні та петровочні пісні"
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
           <h1 className="typo-h1">
-            веснянки
+            русальні та петровочні пісні
           </h1>
         </div>
       </div>
@@ -51,4 +51,4 @@ const VesniankyPage = () => {
   );
 };
 
-export default VesniankyPage;
+export default RusalniTaPetrovochniPisniPage;
