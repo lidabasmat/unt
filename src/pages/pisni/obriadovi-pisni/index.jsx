@@ -13,6 +13,9 @@ const ObriadoviPisniPage = () => {
           <h1 className="typo-h1">
             обрядові пісні
           </h1>
+          <p className="typo-body mt-4 max-w-2xl">
+            Обрядові пісні – народні поетичні твори, які супроводжують родинні (весілля, похорон) та календарні (колядки, гаївки-веснянки, русальні, купальські, жнивні) обряди.
+          </p>
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">

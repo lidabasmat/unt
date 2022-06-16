@@ -31,6 +31,18 @@ const RusalniTaPetrovochniPisniPage = () => {
           <h1 className="typo-h1">
             русальні та петровочні пісні
           </h1>
+          <div className="flex-wrap md:flex justify-between">
+            <div>
+              <p className="typo-body mt-4 max-w-lg">
+                Русальні пісні — окремий рід української народної обрядової пісенності з частими згадками про русалок, зустрічі з ними і їх «проводи».
+              </p>
+            </div>
+            <div>
+              <p className="typo-body mt-4 max-w-lg">
+                Петрівчані пісні — пісні, які виконувалися у Петрівку (починалась відразу ж після святкування Русального тижня).
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">

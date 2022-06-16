@@ -31,6 +31,9 @@ const KupalskiPisniPage = () => {
           <h1 className="typo-h1">
             купальскі пісні
           </h1>
+          <p className="typo-body mt-4 max-w-md">
+            Купальські пісні — обрядові пісні, які співали на Івана Купала, біля ритуального вогнища.
+          </p>
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">

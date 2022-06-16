@@ -31,6 +31,9 @@ const ZhnyvarskiPisniPage = () => {
           <h1 className="typo-h1">
             жниварські пісні
           </h1>
+          <p className="typo-body mt-4 max-w-md">
+            Жниварські пісні — музично-поетичні твори, що оспівують початок, хід та завершення жнив.
+          </p>
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">
