@@ -65,9 +65,27 @@ const ObriadoviPisniPage = () => {
             </ul>
           </li>
           <li className="typo-h5 mt-6">
-            <span>
+            <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/">
               Родинно-обрядові пісні
-            </span>
+            </Link>
+            <ul className="flex mt-4">
+              <li className="typo-small">
+                <span className="mx-4">
+                  *
+                </span>
+                <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/vesilni-pisni/">
+                  Весільні пісні
+                </Link>
+              </li>
+              <li className="typo-small">
+                <span className="mx-4">
+                  *
+                </span>
+                <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/holosinnia/">
+                  Голосіння
+                </Link>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>

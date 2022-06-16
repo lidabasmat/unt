@@ -6,10 +6,10 @@ import YoutubeIcon from '../../../../../components/icons/YoutubeIcon';
 import Link from '../../../../../components/Link';
 import Seo from '../../../../../components/Seo';
 
-const ZhnyvarskiPisniPage = () => {
+const VesilniPisniPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      songs: allSong(filter: {category: {eq: "zhnyvarski-pisni"}}) {
+      songs: allSong(filter: {category: {eq: "vesilni-pisni"}}) {
         nodes {
           title
           slug
@@ -24,13 +24,16 @@ const ZhnyvarskiPisniPage = () => {
   return (
     <>
       <Seo
-        title="Жниварські пісні"
+        title="Весільні пісні"
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
           <h1 className="typo-h1">
-            жниварські пісні
+            весільні пісні
           </h1>
+          <p className="typo-body mt-4 max-w-xl">
+            Весільні пісні — пісні, що супроводжують весільні обряди, пояснюють їх зміст і значення, прославляють молодих та їх батьків.
+          </p>
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">
@@ -51,4 +54,4 @@ const ZhnyvarskiPisniPage = () => {
   );
 };
 
-export default ZhnyvarskiPisniPage;
+export default VesilniPisniPage;
