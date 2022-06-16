@@ -14,6 +14,9 @@ const SongsPage = () => {
           <h1 className="typo-h1">
             пісні
           </h1>
+          <p className="typo-body mt-4 max-w-lg">
+            Пісня — вірш ліричного або ліро-епічного характеру, мелодичний за своїм інтонаційним малюнком і призначений для співу.
+          </p>
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">

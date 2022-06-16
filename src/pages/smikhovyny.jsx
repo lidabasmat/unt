@@ -229,6 +229,9 @@ const JokesPage = () => {
           <h1 className="typo-h1 text-white">
             сміховини
           </h1>
+          <p className="typo-body mt-4 max-w-lg">
+            Сміховина - щось смішне, анекдотична історія, кумедний випадок, сміховинка, анекдота.
+          </p>
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">
