@@ -37,6 +37,16 @@ const CategoriesPage = () => {
               </p>
             </Link>
           </div>
+          <div className="col-full md:col-6 mt-5">
+            <Link to="/skoromovky/" className="block bg-red-500 text-white px-4 py-4 h-full">
+              <h2 className="typo-h2">
+                скоромовки
+              </h2>
+              <p className="mt-4">
+                Дотепна гра спеціально скомпонованих важковимовних слів, і звуків, що створюють труднощі для швидкої й виразної вимови слів.
+              </p>
+            </Link>
+          </div>
         </div>
       </div>
     </>
