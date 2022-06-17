@@ -33,6 +33,14 @@ exports.createSchemaCustomization = ({ actions }) => {
         meta: MetaFields
       }
     `,
+    `
+      type Proverb implements Node {
+        slug: String
+        title: String
+        content: Mdx
+        meta: MetaFields
+      }
+    `,
   ];
 
   createTypes(typeDefs)
@@ -94,6 +102,26 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
         ...songContent,
       });
     }
+
+    if (parent.internal.type === 'File' && parent.sourceInstanceName === 'proverbs') {
+      const proverbContent = {
+        slug: `/pryslivia-ta-prykazky${createFilePath({ node, getNode })}`,
+        title: node.frontmatter.title,
+        content: node,
+        meta: node.frontmatter.meta,
+      };
+
+      createNode({
+        id: createNodeId(`proverb-post-${node.id}`),
+        parent: node.id,
+        children: [],
+        internal: {
+          type: 'Proverb',
+          contentDigest: createContentDigest(proverbContent),
+        },
+        ...proverbContent,
+      });
+    }
   }
 };
 
@@ -102,6 +130,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const jokeTemplate = path.resolve('src/templates/joke.jsx');
   const songTemplate = path.resolve('src/templates/song.jsx');
+  const proverbTemplate = path.resolve('src/templates/proverb.jsx');
 
   const result = await graphql(`
       {
@@ -111,6 +140,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           }
         }
         songs: allSong {
+          nodes {
+            slug
+          }
+        }
+        proverbs: allProverb {
           nodes {
             slug
           }
@@ -143,6 +177,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: songTemplate,
       context: {
         slug: song.slug,
+      },
+    });
+  });
+
+  const proverbs = result.data.proverbs.nodes;
+
+  proverbs.forEach((proverb) => {
+    createPage({
+      path: proverb.slug,
+      component: proverbTemplate,
+      context: {
+        slug: proverb.slug,
       },
     });
   });

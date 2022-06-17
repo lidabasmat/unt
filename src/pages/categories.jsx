@@ -47,6 +47,16 @@ const CategoriesPage = () => {
               </p>
             </Link>
           </div>
+          <div className="col-full md:col-6 mt-5">
+            <Link to="/pryslivia-ta-prykazky/" className="block bg-red-500 text-white px-4 py-4 h-full">
+              <h2 className="typo-h2">
+                прислів'я та приказки
+              </h2>
+              <p className="mt-4">
+                Короткі влучні вислови
+              </p>
+            </Link>
+          </div>
         </div>
       </div>
     </>

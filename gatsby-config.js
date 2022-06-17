@@ -31,6 +31,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `proverbs`,
+        path: `${__dirname}/src/content/proverbs`,
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "gatsby-starter-kit",
