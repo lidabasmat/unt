@@ -2,6 +2,7 @@
 slug: maialo-zhytechko-maialo
 title: Маяло житечко, маяло
 category: zhnyvarski-pisni
+hasYoutube: true
 ---
 ```
 Маяло житечко, маяло,
@@ -23,3 +24,7 @@ category: zhnyvarski-pisni
 Нехай же я у стодолі одпочину,
 Поки вивезуть знову на ниву.
 ```
+
+## Запис виконання жниварської пісні "Маяло житечко, маяло"
+
+<YoutubeIframe id="bFMQGVkEbbE" className="md:w-4/5" />
