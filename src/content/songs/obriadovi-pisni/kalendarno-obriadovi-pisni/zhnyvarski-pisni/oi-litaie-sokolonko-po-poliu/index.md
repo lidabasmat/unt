@@ -32,3 +32,13 @@ hasYoutube: true
 ## Запис виконання жниварської пісні "Ой літає соколонько по полю"
 
 <YoutubeIframe id="gASRE6l6PsI" className="md:w-4/5" />
+
+
+## Запис виконання пісні "Ой літає соколонько по полю" у виконанні Федорій Інни
+
+<YoutubeIframe id="rJro0j7yreE" className="md:w-4/5" />
+
+
+## Запис виконання пісні "Ой літає соколонько по полю" у виконанні Ткачук Марії
+
+<YoutubeIframe id="yQle7rpLxDo" className="md:w-4/5" />
