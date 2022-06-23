@@ -30,12 +30,20 @@ const KoliadkyTaShchedrivkyPage = () => {
           hasYoutube
         }
       }
+      songs4: allSong(filter: {category: {eq: "koliadky-ta-shchedrivky-vdovi"}}) {
+        nodes {
+          title
+          slug
+          hasYoutube
+        }
+      }
     }
   `);
 
   const songs1 = data.songs1.nodes;
   const songs2 = data.songs2.nodes;
   const songs3 = data.songs3.nodes;
+  const songs4 = data.songs4.nodes;
 
   return (
     <>
@@ -92,6 +100,23 @@ const KoliadkyTaShchedrivkyPage = () => {
         </h2>
         <div className="row mt-4">
           {songs3.map((song) => (
+            <div className="col-full md:col-4 mb-4">
+              <Link to={song.slug} className="typo-small flex items-center">
+                {song.title}
+                {song.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="container-lg py-10 md:py-10">
+        <h2 className="typo-h2">
+          Колядки та щедрівки вдові
+        </h2>
+        <div className="row mt-4">
+          {songs4.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
                 {song.title}
