@@ -37,6 +37,27 @@ const KoliadkyTaShchedrivkyPage = () => {
           hasYoutube
         }
       }
+      songs5: allSong(filter: {category: {eq: "koliadky-ta-shchedrivky-babusi"}}) {
+        nodes {
+          title
+          slug
+          hasYoutube
+        }
+      }
+      songs6: allSong(filter: {category: {eq: "dytiachi-koliadky-shchedrivky-zasivalky-posypalky"}}) {
+        nodes {
+          title
+          slug
+          hasYoutube
+        }
+      }
+      songs7: allSong(filter: {category: {eq: "koza-i-malanka"}}) {
+        nodes {
+          title
+          slug
+          hasYoutube
+        }
+      }
     }
   `);
 
@@ -44,6 +65,9 @@ const KoliadkyTaShchedrivkyPage = () => {
   const songs2 = data.songs2.nodes;
   const songs3 = data.songs3.nodes;
   const songs4 = data.songs4.nodes;
+  const songs5 = data.songs5.nodes;
+  const songs6 = data.songs6.nodes;
+  const songs7 = data.songs7.nodes;
 
   return (
     <>
@@ -117,6 +141,57 @@ const KoliadkyTaShchedrivkyPage = () => {
         </h2>
         <div className="row mt-4">
           {songs4.map((song) => (
+            <div className="col-full md:col-4 mb-4">
+              <Link to={song.slug} className="typo-small flex items-center">
+                {song.title}
+                {song.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="container-lg py-10 md:py-10">
+        <h2 className="typo-h2">
+          Колядки та щедрівки бабусі
+        </h2>
+        <div className="row mt-4">
+          {songs5.map((song) => (
+            <div className="col-full md:col-4 mb-4">
+              <Link to={song.slug} className="typo-small flex items-center">
+                {song.title}
+                {song.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="container-lg py-10 md:py-10">
+        <h2 className="typo-h2">
+          Дитячі колядки, щедрівки, засівалки (посипалки)
+        </h2>
+        <div className="row mt-4">
+          {songs6.map((song) => (
+            <div className="col-full md:col-4 mb-4">
+              <Link to={song.slug} className="typo-small flex items-center">
+                {song.title}
+                {song.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="container-lg py-10 md:py-10">
+        <h2 className="typo-h2">
+          Коза і Маланка
+        </h2>
+        <div className="row mt-4">
+          {songs7.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
                 {song.title}
