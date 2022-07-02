@@ -8,6 +8,7 @@ const SongsPage = () => {
     <>
       <Seo
         title="Пісні"
+        description="Українські народні пісні. Обрядові, епічні, соціально-побутові, родинно-побутова лірика, пісні літературного походження, коломийки."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
@@ -95,6 +96,33 @@ const SongsPage = () => {
                     </Link>
                   </li>
                 </ul>
+              </li>
+            </ul>
+          </li>
+          <li className="typo-h4 py-10">
+            <Link to="/pisni/epichni-pisni/">
+              Епічні пісні
+            </Link>
+            <ul className="ml-10">
+              <li className="typo-h5 mt-4">
+                <Link to="/pisni/epichni-pisni/dumy/">
+                  Думи
+                </Link>
+              </li>
+              <li className="typo-h5 mt-4">
+                <Link to="/pisni/epichni-pisni/istorychni-pisni/">
+                  Історичні пісні
+                </Link>
+              </li>
+              <li className="typo-h5 mt-4">
+                <Link to="/pisni/epichni-pisni/pisni-khroniky/">
+                  Пісні-хроніки
+                </Link>
+              </li>
+              <li className="typo-h5 mt-4">
+                <Link to="/pisni/epichni-pisni/balady/">
+                  Балади
+                </Link>
               </li>
             </ul>
           </li>
