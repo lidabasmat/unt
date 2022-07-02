@@ -1,30 +1,9 @@
-import { graphql, useStaticQuery } from 'gatsby';
 import * as React from "react";
-import { GatsbyImage as Image, getImage } from 'gatsby-plugin-image';
 import Seo from '../components/Seo';
 import List from '../components/List';
 
 // markup
 const PolicyPage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      ornament1Image: file(relativePath: {eq: "ornament1.png"}) {
-        childImageSharp {
-          gatsbyImageData(
-            placeholder: BLURRED
-          )
-        }
-      }
-      ornament2Image: file(relativePath: {eq: "ornament2.png"}) {
-        childImageSharp {
-          gatsbyImageData(
-            placeholder: BLURRED
-          )
-        }
-      }
-    }
-  `);
-
   return (
     <>
       <Seo
