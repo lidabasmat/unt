@@ -1,43 +1,29 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import * as React from "react";
-import { GatsbyImage as Image, getImage } from 'gatsby-plugin-image';
 import Seo from '../components/Seo';
+
+import HeroVisualSource from '../images/visuals/home-hero.svg';
 
 // markup
 const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      ornament1Image: file(relativePath: {eq: "ornament1.png"}) {
-        childImageSharp {
-          gatsbyImageData(
-            placeholder: BLURRED
-          )
-        }
-      }
-      ornament2Image: file(relativePath: {eq: "ornament2.png"}) {
-        childImageSharp {
-          gatsbyImageData(
-            placeholder: BLURRED
-          )
-        }
-      }
-    }
-  `);
-
   return (
     <>
       <Seo
         title="Перлини української народної творчості"
       />
       <div className="bg-red-500 text-white">
-        <div className="container-lg">
+        <div
+          className="container-lg relative"
+        >
+          <div
+            className="hidden md:block absolute inset-0 bg-no-repeat bg-right-top"
+            style={{ backgroundImage: `url(${HeroVisualSource})` }}
+          />
           <div className="row items-center">
-            <div className="col-full md:col-6 py-10 md:py-24">
+            <div className="col-full md:col-6 py-10 md:py-32">
               <h1 className="typo-h1 max-w-sm">
                 перлини української народної творчості
               </h1>
-            </div>
-            <div className="col-full md:col-6">
             </div>
           </div>
         </div>
