@@ -235,7 +235,7 @@ const JokesPage = () => {
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">
-        <h2 className="typo-h2">
+        <h2 className="typo-h3">
           A
         </h2>
         <div className="row mt-4">
@@ -247,7 +247,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Б
         </h2>
         <div className="row mt-4">
@@ -259,7 +259,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           В
         </h2>
         <div className="row mt-4">
@@ -271,7 +271,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Г
         </h2>
         <div className="row mt-4">
@@ -283,7 +283,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Д
         </h2>
         <div className="row mt-4">
@@ -295,7 +295,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Е
         </h2>
         <div className="row mt-4">
@@ -307,7 +307,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Є
         </h2>
         <div className="row mt-4">
@@ -319,7 +319,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Ж
         </h2>
         <div className="row mt-4">
@@ -331,7 +331,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           З
         </h2>
         <div className="row mt-4">
@@ -343,7 +343,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           І
         </h2>
         <div className="row mt-4">
@@ -355,7 +355,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           К
         </h2>
         <div className="row mt-4">
@@ -367,7 +367,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Л
         </h2>
         <div className="row mt-4">
@@ -379,7 +379,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           М
         </h2>
         <div className="row mt-4">
@@ -391,7 +391,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Н
         </h2>
         <div className="row mt-4">
@@ -403,7 +403,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           О
         </h2>
         <div className="row mt-4">
@@ -415,7 +415,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           П
         </h2>
         <div className="row mt-4">
@@ -427,7 +427,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Р
         </h2>
         <div className="row mt-4">
@@ -439,7 +439,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           С
         </h2>
         <div className="row mt-4">
@@ -451,7 +451,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Т
         </h2>
         <div className="row mt-4">
@@ -463,7 +463,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           У
         </h2>
         <div className="row mt-4">
@@ -475,7 +475,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Ф
         </h2>
         <div className="row mt-4">
@@ -487,7 +487,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Х
         </h2>
         <div className="row mt-4">
@@ -499,7 +499,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Ц
         </h2>
         <div className="row mt-4">
@@ -511,7 +511,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Ч
         </h2>
         <div className="row mt-4">
@@ -523,7 +523,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Ш
         </h2>
         <div className="row mt-4">
@@ -535,7 +535,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Щ
         </h2>
         <div className="row mt-4">
@@ -547,7 +547,7 @@ const JokesPage = () => {
             </div>
           ))}
         </div>
-        <h2 className="typo-h2 mt-8">
+        <h2 className="typo-h3 mt-8">
           Я
         </h2>
         <div className="row mt-4">

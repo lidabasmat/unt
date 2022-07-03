@@ -60,6 +60,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-postcss`,
     {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+         mergeSecurityHeaders: false,
+        },
+    },
+    {
       resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.mdx', '.md'],

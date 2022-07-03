@@ -33,8 +33,12 @@ const Header = () => {
                 сміховини
               </Link>
               <div className="w-2 h-2 mx-8 bg-white" />
-              <Link to="/categories/" className="typo-intro">
-                категорії
+              <Link to="/skoromovky/" className="typo-intro">
+                скоромовки
+              </Link>
+              <div className="w-2 h-2 mx-8 bg-white" />
+              <Link to="/pryslivia-ta-prykazky/" className="typo-intro">
+                прислів'я та приказки
               </Link>
             </nav>
             <div className="md:hidden">
@@ -46,7 +50,7 @@ const Header = () => {
         </div>
       </header>
       <div className={classnames(
-        'fixed top-0 h-screen right-0 max-w-full w-full bg-black transition-all duration-500 text-white',
+        'fixed z-10 top-0 h-screen right-0 max-w-full w-full bg-black transition-all duration-500 text-white',
         {
           'opacity-100 visible': opened,
           'opacity-0 invisible': !opened,
@@ -70,9 +74,13 @@ const Header = () => {
             <span className="inline-block w-2 h-2 bg-white mr-4" />
             сміховини
           </div>
-          <div onClick={() => { navigateTo('/categories/') }} className="flex items-center typo-intro py-5 px-4">
+          <div onClick={() => { navigateTo('/skoromovky/') }} className="flex items-center typo-intro py-5 px-4">
             <span className="inline-block w-2 h-2 bg-white mr-4" />
-            категорії
+            скоромовки
+          </div>
+          <div onClick={() => { navigateTo('/pryslivia-ta-prykazky/') }} className="flex items-center typo-intro py-5 px-4">
+            <span className="inline-block w-2 h-2 bg-white mr-4" />
+            прислів'я та приказки
           </div>
         </div>
       </div>

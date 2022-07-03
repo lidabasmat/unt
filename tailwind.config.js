@@ -11,15 +11,14 @@ module.exports = {
             body: ['Roboto', 'Helvetica', 'sans-serif'],
         },
         fontSize: {
-            xs: ['0.75rem',      '1.5'],
-            sm: ['0.875rem',     '1.5'],
-            base: ['1rem',       '2rem'],
-            lg: ['1.125rem',     '1.75'],
-            xl: ['1.25rem',      '1.75'],
-            '2xl': ['1.5rem',    '2'],
-            '3xl': ['1.875rem',  '1'],
-            '4xl': ['2.375rem',   '1'],
-            '5xl': ['3rem',      '1'],
+            sm: ['0.875rem', '1.5'],
+            base: ['1rem', '2rem'],
+            lg: ['1.125rem', '2rem'],
+            xl: ['1.5rem', '2.25rem'],
+            '2xl': ['1.75rem', '2.5rem'],
+            '3xl': ['2rem', '2.5rem'],
+            '4xl': ['2.5rem', '3rem'],
+            '5xl': ['3.5rem', '4rem'],
         },
         extend: {
             colors: {

@@ -19,33 +19,29 @@ const EpichniPisniPage = () => {
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">
-        <ul>
-          <li className="typo-h4 py-10">
-            <Link to="/pisni/epichni-pisni/">
-              Епічні пісні
+        <h2 className="typo-h2">
+          Жанри епічних пісень
+        </h2>
+        <ul className="mt-10">
+          <li className="typo-h4">
+            <Link to="/pisni/epichni-pisni/dumy/">
+              Думи
             </Link>
-            <ul className="ml-10">
-              <li className="typo-h5 mt-4">
-                <Link to="/pisni/epichni-pisni/dumy/">
-                  Думи
-                </Link>
-              </li>
-              <li className="typo-h5 mt-4">
-                <Link to="/pisni/epichni-pisni/istorychni-pisni/">
-                  Історичні пісні
-                </Link>
-              </li>
-              <li className="typo-h5 mt-4">
-                <Link to="/pisni/epichni-pisni/pisni-khroniky/">
-                  Пісні-хроніки
-                </Link>
-              </li>
-              <li className="typo-h5 mt-4">
-                <Link to="/pisni/epichni-pisni/balady/">
-                  Балади
-                </Link>
-              </li>
-            </ul>
+          </li>
+          <li className="typo-h4 mt-4">
+            <Link to="/pisni/epichni-pisni/istorychni-pisni/">
+              Історичні пісні
+            </Link>
+          </li>
+          <li className="typo-h4 mt-4">
+            <Link to="/pisni/epichni-pisni/pisni-khroniky/">
+              Пісні-хроніки
+            </Link>
+          </li>
+          <li className="typo-h4 mt-4">
+            <Link to="/pisni/epichni-pisni/balady/">
+              Балади
+            </Link>
           </li>
         </ul>
       </div>

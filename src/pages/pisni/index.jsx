@@ -20,15 +20,18 @@ const SongsPage = () => {
           </p>
         </div>
       </div>
-      <div className="container-lg py-10 md:py-24">
-        <ul>
-          <li className="typo-h4 py-10">
-            <Link to="/pisni/obriadovi-pisni/">
+      <div className="container-lg mt-10 md:mt-24">
+        <h2 className="typo-h2">
+          Жанри пісень
+        </h2>
+        <ul className="mt-10">
+          <li>
+            <Link to="/pisni/obriadovi-pisni/" className="typo-h4">
               Обрядові пісні
             </Link>
-            <ul className="ml-10">
-              <li className="typo-h5 mt-4">
-                <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/">
+            <ul className="ml-10 mt-4">
+              <li>
+                <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/" className="typo-h5">
                   Календарно-обрядові пісні
                 </Link>
                 <ul className="md:flex">
@@ -52,7 +55,7 @@ const SongsPage = () => {
                     <span className="mx-4">
                       *
                     </span>
-                    <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrovochni-pisni/">
+                    <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrivchani-pisni/">
                       Русальні та петровочні пісні
                     </Link>
                   </li>
@@ -74,8 +77,8 @@ const SongsPage = () => {
                   </li>
                 </ul>
               </li>
-              <li className="typo-h5 mt-6">
-                <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/">
+              <li className="mt-4">
+                <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/" className="typo-h5">
                   Родинно-обрядові пісні
                 </Link>
                 <ul className="flex mt-4">
@@ -99,12 +102,12 @@ const SongsPage = () => {
               </li>
             </ul>
           </li>
-          <li className="typo-h4 py-10">
-            <Link to="/pisni/epichni-pisni/">
+          <li className="mt-10">
+            <Link to="/pisni/epichni-pisni/" className="typo-h4">
               Епічні пісні
             </Link>
-            <ul className="ml-10">
-              <li className="typo-h5 mt-4">
+            <ul className="ml-10 mt-4">
+              <li className="typo-h5">
                 <Link to="/pisni/epichni-pisni/dumy/">
                   Думи
                 </Link>
@@ -127,17 +130,20 @@ const SongsPage = () => {
             </ul>
           </li>
         </ul>
-        <div className="py-10">
-          <p className="typo-body mt-4">
-            Основні показники пісні як жанру лірики — строфічна будова, повторюваність віршів строфи, розмежування заспіву та приспіву (рефрен), виразна ритмізація, музичність звучання, синтаксичний паралелізм, проста синтаксична будова.
-          </p>
-          <p className="typo-body mt-4">
-            Найдавніший, традиційний різновид лірики користується найрізноманітнішими мовними засобами, передає найтонші переживання.
-          </p>
-          <p className="typo-body mt-4">
-            Розрізняють фольклорну пісню: як жанр писемної поезії та як самостійний вокально-музичний твір.
-          </p>
-        </div>
+      </div>
+      <div className="container-lg my-10 md:my-24">
+        <h2 className="typo-h2">
+          Українська пісня
+        </h2>
+        <p className="typo-body mt-4">
+          Основні показники пісні як жанру лірики – строфічна будова, повторюваність віршів строфи, розмежування заспіву та приспіву (рефрен), виразна ритмізація, музичність звучання, синтаксичний паралелізм, проста синтаксична будова.
+        </p>
+        <p className="typo-body mt-4">
+          Найдавніший, традиційний різновид лірики користується найрізноманітнішими мовними засобами, передає найтонші переживання.
+        </p>
+        <p className="typo-body mt-4">
+          Розрізняють фольклорну пісню: як жанр писемної поезії та як самостійний вокально-музичний твір.
+        </p>
       </div>
     </>
   );

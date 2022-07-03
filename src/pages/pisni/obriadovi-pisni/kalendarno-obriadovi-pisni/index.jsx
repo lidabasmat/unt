@@ -18,39 +18,45 @@ const KalendarnoObriadoviPisniPage = () => {
           </p>
         </div>
       </div>
-      <div className="container-lg py-10 md:py-24">
-        <ul>
+      <div className="container-lg mt-10 md:mt-24">
+        <h2 className="typo-h2">
+          Жанри календарно-обрядових пісень
+        </h2>
+        <ul className="mt-10">
           <li className="typo-h4">
             <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/koliadky-ta-shchedrivky/">
               Колядки та щедрівки
             </Link>
           </li>
-          <li className="typo-h4">
+          <li className="typo-h4 mt-4">
             <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/vesnianky/">
               Веснянки
             </Link>
           </li>
-          <li className="typo-h4">
-            <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrovochni-pisni/">
+          <li className="typo-h4 mt-4">
+            <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrivchani-pisni/">
               Русальні та петровочні пісні
             </Link>
           </li>
-          <li className="typo-h4">
+          <li className="typo-h4 mt-4">
             <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/kupalski-pisni/">
               Купальскі пісні
             </Link>
           </li>
-          <li className="typo-h4">
+          <li className="typo-h4 mt-4">
             <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/zhnyvarski-pisni/">
               Жниварські пісні
             </Link>
           </li>
         </ul>
-        <div className="py-10">
-          <p className="typo-body mt-4">
-            Календарно-обрядові пісні тісно зв'язані з язичницькими віруваннями. Слов'яни вірили в сили природи, в духів природи та вважали, що обрядовими піснями можуть вплинути на них та примусити їх діяти в бажаному напрямку. Вони нерозривно пов'язані з певною порою року, відповідними звичаями й сільськогосподарськими роботами. Обрядова поезія дуже тісно зв'язана з працею людини, з родинним побутом та з народним календарем.
-          </p>
-        </div>
+      </div>
+      <div className="container-lg py-10 md:py-24">
+        <h2 className="typo-h2">
+          Опис календарно-обрядових пісень
+        </h2>
+        <p className="typo-body mt-4">
+          Календарно-обрядові пісні тісно зв'язані з язичницькими віруваннями. Слов'яни вірили в сили природи, в духів природи та вважали, що обрядовими піснями можуть вплинути на них та примусити їх діяти в бажаному напрямку. Вони нерозривно пов'язані з певною порою року, відповідними звичаями й сільськогосподарськими роботами. Обрядова поезія дуже тісно зв'язана з працею людини, з родинним побутом та з народним календарем.
+        </p>
       </div>
     </>
   );

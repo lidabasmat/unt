@@ -19,71 +19,53 @@ const ObriadoviPisniPage = () => {
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">
-        <ul>
-          <li className="typo-h5 mt-4">
-            <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/">
+        <h2 className="typo-h2">
+          Жанри обрядових пісень
+        </h2>
+        <ul className="mt-10">
+          <li className="mt-10">
+            <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/" className="typo-h4">
               Календарно-обрядові пісні
             </Link>
-            <ul className="flex mt-4">
-              <li className="typo-small">
-                <span className="mx-4">
-                  *
-                </span>
+            <ul className="ml-10 mt-4">
+              <li className="typo-h5">
                 <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/koliadky-ta-shchedrivky/">
                   Колядки та щедрівки
                 </Link>
               </li>
-              <li className="typo-small">
-                <span className="mx-4">
-                  *
-                </span>
+              <li className="typo-h5 mt-4">
                 <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/vesnianky/">
                   Веснянки
                 </Link>
               </li>
-              <li className="typo-small">
-                <span className="mx-4">
-                  *
-                </span>
-                <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrovochni-pisni/">
+              <li className="typo-h5 mt-4">
+                <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrivchani-pisni/">
                   Русальні та петровочні пісні
                 </Link>
               </li>
-              <li className="typo-small">
-                <span className="mx-4">
-                  *
-                </span>
+              <li className="typo-h5 mt-4">
                 <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/kupalski-pisni/">
                   Купальскі пісні
                 </Link>
               </li>
-              <li className="typo-small">
-                <span className="mx-4">
-                  *
-                </span>
+              <li className="typo-h5 mt-4">
                 <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/zhnyvarski-pisni/">
                   Жниварські пісні
                 </Link>
               </li>
             </ul>
           </li>
-          <li className="typo-h5 mt-6">
-            <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/">
+          <li className="mt-10">
+            <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/" className="typo-h4">
               Родинно-обрядові пісні
             </Link>
-            <ul className="flex mt-4">
-              <li className="typo-small">
-                <span className="mx-4">
-                  *
-                </span>
+            <ul className="ml-10 mt-4">
+              <li className="typo-h5">
                 <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/vesilni-pisni/">
                   Весільні пісні
                 </Link>
               </li>
-              <li className="typo-small">
-                <span className="mx-4">
-                  *
-                </span>
+              <li className="typo-h5 mt-4">
                 <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/holosinnia/">
                   Голосіння
                 </Link>

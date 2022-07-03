@@ -84,11 +84,11 @@ const KoliadkyTaShchedrivkyPage = () => {
           </p>
         </div>
       </div>
-      <div className="container-lg pt-10 md:pt-24 pb-10">
+      <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
           Колядки та щедрівки господарю та його родині
         </h2>
-        <div className="row mt-4">
+        <div className="row mt-8">
           {songs1.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
@@ -101,11 +101,11 @@ const KoliadkyTaShchedrivkyPage = () => {
           ))}
         </div>
       </div>
-      <div className="container-lg py-10 md:py-10">
+      <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
           Колядки та щедрівки господині
         </h2>
-        <div className="row mt-4">
+        <div className="row mt-10">
           {songs2.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
@@ -118,11 +118,11 @@ const KoliadkyTaShchedrivkyPage = () => {
           ))}
         </div>
       </div>
-      <div className="container-lg py-10 md:py-10">
+      <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
           Колядки та щедрівки парубкові
         </h2>
-        <div className="row mt-4">
+        <div className="row mt-10">
           {songs3.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
@@ -135,11 +135,11 @@ const KoliadkyTaShchedrivkyPage = () => {
           ))}
         </div>
       </div>
-      <div className="container-lg py-10 md:py-10">
+      <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
           Колядки та щедрівки вдові
         </h2>
-        <div className="row mt-4">
+        <div className="row mt-10">
           {songs4.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
@@ -152,11 +152,11 @@ const KoliadkyTaShchedrivkyPage = () => {
           ))}
         </div>
       </div>
-      <div className="container-lg py-10 md:py-10">
+      <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
           Колядки та щедрівки бабусі
         </h2>
-        <div className="row mt-4">
+        <div className="row mt-10">
           {songs5.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
@@ -169,11 +169,11 @@ const KoliadkyTaShchedrivkyPage = () => {
           ))}
         </div>
       </div>
-      <div className="container-lg py-10 md:py-10">
+      <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
           Дитячі колядки, щедрівки, засівалки (посипалки)
         </h2>
-        <div className="row mt-4">
+        <div className="row mt-10">
           {songs6.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
@@ -186,11 +186,11 @@ const KoliadkyTaShchedrivkyPage = () => {
           ))}
         </div>
       </div>
-      <div className="container-lg py-10 md:py-10">
+      <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
-          Коза і Маланка
+          Коза і Меланка
         </h2>
-        <div className="row mt-4">
+        <div className="row mt-10">
           {songs7.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
@@ -203,7 +203,10 @@ const KoliadkyTaShchedrivkyPage = () => {
           ))}
         </div>
       </div>
-      <div className="container-lg py-10 md:py-10">
+      <div className="container-lg py-10 md:py-24">
+        <h2 className="typo-h2">
+          Опис жанру
+        </h2>
         <p className="typo-body mt-4">
           <span className="font-extrabold italic">
             Колядки та щедрівки

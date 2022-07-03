@@ -6,10 +6,10 @@ import YoutubeIcon from '../../../../../components/icons/YoutubeIcon';
 import Link from '../../../../../components/Link';
 import Seo from '../../../../../components/Seo';
 
-const RusalniTaPetrovochniPisniPage = () => {
+const RusalniTaPetrivchaniPisniPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      songs: allSong(filter: {category: {eq: "rusalni-ta-petrovochni-pisni"}}) {
+      songs: allSong(filter: {category: {eq: "rusalni-ta-petrivchani-pisni"}}) {
         nodes {
           title
           slug
@@ -29,7 +29,7 @@ const RusalniTaPetrovochniPisniPage = () => {
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
           <h1 className="typo-h1">
-            русальні та петровочні пісні
+            русальні та петрівчані пісні
           </h1>
           <div className="flex-wrap md:flex justify-between">
             <div>
@@ -46,7 +46,10 @@ const RusalniTaPetrovochniPisniPage = () => {
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">
-        <div className="row mt-4">
+        <h2 className="typo-h2">
+          Список русальних та петрівчаних пісень
+        </h2>
+        <div className="row mt-8">
           {songs.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
@@ -63,4 +66,4 @@ const RusalniTaPetrovochniPisniPage = () => {
   );
 };
 
-export default RusalniTaPetrovochniPisniPage;
+export default RusalniTaPetrivchaniPisniPage;

@@ -39,7 +39,10 @@ const PisniKhronikyPage = () => {
         </div>
       </div>
       <div className="container-lg py-10 md:py-24">
-        <div className="row mt-4">
+        <h2 className="typo-h2">
+          Список пісень-хронік
+        </h2>
+        <div className="row mt-8">
           {songs.map((song) => (
             <div className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">

@@ -45,7 +45,7 @@ const ProverbsPage = () => {
       <div className="container-lg py-10 md:py-24">
         <ul>
           {proverbs.map((proverb) => (
-            <li className="typo-h4">
+            <li className="typo-h4 mt-4 first:mt-0">
               <Link to={proverb.slug}>
                 {proverb.title}
               </Link>

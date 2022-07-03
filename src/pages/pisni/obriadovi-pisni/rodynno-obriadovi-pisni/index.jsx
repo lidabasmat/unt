@@ -18,36 +18,31 @@ const RodynnoObriadoviPisniPage = () => {
           </p>
         </div>
       </div>
-      <div className="container-lg py-10 md:py-24">
-        <ul>
+      <div className="container-lg mt-10 md:mt-24">
+        <h2 className="typo-h2">
+          Жанри родинно-обрядових пісень
+        </h2>
+        <ul className="mt-10">
           <li className="typo-h4">
             <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/vesilni-pisni/">
               Весільні пісні
             </Link>
           </li>
-          <li className="typo-h4">
+          <li className="typo-h4 mt-4">
             <Link to="/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/holosinnia/">
               Голосіння
             </Link>
           </li>
         </ul>
-        <div className="py-10">
-          <p className="typo-body mt-4">
+      </div>
+      <div className="container-lg py-10 md:py-24">
+        <h2 className="typo-h2">
+          Опис родинно-обрядових пісень
+        </h2>
+        <p className="typo-body mt-4">
           Родинно-обрядові пісні – найдавніші за походженням, пройшли багатовіковий розвиток і побутують у народі до
           наших днів. Родинно-обрядові пісні супроводжують людину все життя – від народження й до смерті.
-          </p>
-          <p className="typo-body mt-4">
-          Цикли:
-          </p>
-          <ul className="typo-body mt-4">
-            <li>
-              весільні,
-            </li>
-            <li>
-              плачі й голосіння.
-            </li>
-          </ul>
-        </div>
+        </p>
       </div>
     </>
   );
