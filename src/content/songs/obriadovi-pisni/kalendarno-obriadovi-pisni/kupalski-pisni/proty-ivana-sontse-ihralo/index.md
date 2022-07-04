@@ -1,6 +1,6 @@
 ---
 slug: proty-ivana-sontse-ihralo
-title: А ми рутоньку посієм, посієм
+title: Проти Івана сонце іграло
 category: kupalski-pisni
 ---
 Проти Івана сонце іграло,
