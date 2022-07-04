@@ -56,7 +56,7 @@ const SongsPage = () => {
                       *
                     </span>
                     <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrivchani-pisni/">
-                      Русальні та петровочні пісні
+                      Русальні та петрівчані пісні
                     </Link>
                   </li>
                   <li className="typo-small mt-4">

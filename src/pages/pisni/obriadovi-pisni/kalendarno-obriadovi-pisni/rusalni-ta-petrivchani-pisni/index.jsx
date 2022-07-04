@@ -24,7 +24,7 @@ const RusalniTaPetrivchaniPisniPage = () => {
   return (
     <>
       <Seo
-        title="Русальні та петровочні пісні"
+        title="Русальні та петрівчані пісні"
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">

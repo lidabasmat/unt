@@ -35,7 +35,7 @@ const KalendarnoObriadoviPisniPage = () => {
           </li>
           <li className="typo-h4 mt-4">
             <Link to="/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrivchani-pisni/">
-              Русальні та петровочні пісні
+              Русальні та петрівчані пісні
             </Link>
           </li>
           <li className="typo-h4 mt-4">
