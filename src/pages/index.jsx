@@ -2,6 +2,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import * as React from "react";
 import Link from '../components/Link';
 import Seo from '../components/Seo';
+import OrnamentSource from '../images/ornament.svg';
 
 import HeroVisualSource from '../images/visuals/home-hero.svg';
 
@@ -77,7 +78,7 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="container-lg pt-10 pb-10 md:pt-0 md:pb-24">
-        <div className="row">
+        <div className="row md:flex-nowrap items-center">
           <div className="col-full md:col-6">
             <h2 className="typo-h2">
               Про проєкт
@@ -96,6 +97,9 @@ const IndexPage = () => {
               Проєкт “Українська народна творчість” був створений щоб зібрати та зберегти ці перлини, що висвічують
               веселками непідробного гумору, глибокою мудрістю і простотою мови.
             </p>
+          </div>
+          <div className="hidden md:block col-full md:col-6 md:ml-2/12 md:order-2">
+            <img src={OrnamentSource} alt="Ornament" className="w-full"/>
           </div>
         </div>
       </div>
