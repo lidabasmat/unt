@@ -129,6 +129,33 @@ const SongsPage = () => {
               </li>
             </ul>
           </li>
+          <li className="mt-10">
+            <Link to="/pisni/rodynno-pobutova-liryka/" className="typo-h4">
+              Родинно-побутова лірика
+            </Link>
+            <ul className="ml-10 mt-4">
+              <li className="typo-h5">
+                <Link to="/pisni/rodynno-pobutova-liryka/pisni-pro-kokhannia/">
+                  Пісні про кохання
+                </Link>
+              </li>
+              <li className="typo-h5 mt-4">
+                <Link to="/pisni/rodynno-pobutova-liryka/pisni-pro-rodynne-zhyttia/">
+                  Пісні про родинне життя
+                </Link>
+              </li>
+              <li className="typo-h5 mt-4">
+                <Link to="/pisni/rodynno-pobutova-liryka/kolyskovi-pisni/">
+                  Колискові пісні
+                </Link>
+              </li>
+              <li className="typo-h5 mt-4">
+                <Link to="/pisni/rodynno-pobutova-liryka/zhartivlyvi-pisni/">
+                  Жартівливі пісні
+                </Link>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
       <div className="container-lg my-10 md:my-24">
