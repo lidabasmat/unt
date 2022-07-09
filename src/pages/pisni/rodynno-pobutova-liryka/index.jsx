@@ -18,37 +18,30 @@ const RodynnoPobutovaLirykaPage = () => {
           </p>
         </div>
       </div>
-      <div className="container-lg mt-10 md:mt-24">
+      <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
           Жанри родинно-побутової лірики
         </h2>
         <ul className="mt-10">
-          <li className="mt-10">
-            <Link to="/pisni/epichni-pisni/" className="typo-h4">
-              Родинно-побутова лірика
+          <li className="typo-h4 mt-4">
+            <Link to="/pisni/rodynno-pobutova-liryka/pisni-pro-kokhannia/">
+              Пісні про кохання
             </Link>
-            <ul className="ml-10 mt-4">
-              <li className="typo-h5">
-                <Link to="/pisni/rodynno-pobutova-liryka/pisni-pro-kokhannia/">
-                  Пісні про кохання
-                </Link>
-              </li>
-              <li className="typo-h5 mt-4">
-                <Link to="/pisni/rodynno-pobutova-liryka/pisni-pro-rodynne-zhyttia/">
-                  Пісні про родинне життя
-                </Link>
-              </li>
-              <li className="typo-h5 mt-4">
-                <Link to="/pisni/rodynno-pobutova-liryka/kolyskovi-pisni/">
-                  Колискові пісні
-                </Link>
-              </li>
-              <li className="typo-h5 mt-4">
-                <Link to="/pisni/rodynno-pobutova-liryka/zhartivlyvi-pisni/">
-                  Жартівливі пісні
-                </Link>
-              </li>
-            </ul>
+          </li>
+          <li className="typo-h4 mt-4">
+            <Link to="/pisni/rodynno-pobutova-liryka/pisni-pro-rodynne-zhyttia/">
+              Пісні про родинне життя
+            </Link>
+          </li>
+          <li className="typo-h4 mt-4">
+            <Link to="/pisni/rodynno-pobutova-liryka/kolyskovi-pisni/">
+              Колискові пісні
+            </Link>
+          </li>
+          <li className="typo-h4 mt-4">
+            <Link to="/pisni/rodynno-pobutova-liryka/zhartivlyvi-pisni/">
+              Жартівливі пісні
+            </Link>
           </li>
         </ul>
       </div>
