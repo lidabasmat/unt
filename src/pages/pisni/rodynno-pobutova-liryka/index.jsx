@@ -18,7 +18,7 @@ const RodynnoPobutovaLirykaPage = () => {
           </p>
         </div>
       </div>
-      <div className="container-lg py-10 md:py-24">
+      <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
           Жанри родинно-побутової лірики
         </h2>
