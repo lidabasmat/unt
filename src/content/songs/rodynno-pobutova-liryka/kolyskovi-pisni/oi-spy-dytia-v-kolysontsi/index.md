@@ -19,6 +19,6 @@ hasYoutube: true
 
 <YoutubeIframe id="9_njQV-V1X0" className="md:w-4/5" />
 
-## Запис виконання колискової "Ой спи, дитя, в колисоньці" у виконанні Каті Іваненко
+## Запис колискової "Ой спи, дитя, в колисоньці" у виконанні Каті Іваненко
 
 <YoutubeIframe id="Heq4OVagzmk" className="md:w-4/5" />
