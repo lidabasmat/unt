@@ -1,12 +1,13 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
+import Breadcrumbs from '../../../../../components/Breadcrumbs';
 import YoutubeIcon from '../../../../../components/icons/YoutubeIcon';
 
 import Link from '../../../../../components/Link';
 import Seo from '../../../../../components/Seo';
 
-const ZhnyvarskiPisniPage = () => {
+const ZhnyvarskiPisniPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       songs: allSong(filter: {category: {eq: "zhnyvarski-pisni"}}) {
@@ -28,8 +29,11 @@ const ZhnyvarskiPisniPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            жниварські пісні
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Жниварські пісні
           </h1>
           <p className="typo-body mt-4 max-w-md">
             Жниварські пісні — музично-поетичні твори, що оспівують початок, хід та завершення жнив.

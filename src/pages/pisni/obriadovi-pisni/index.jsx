@@ -1,8 +1,10 @@
 import React from 'react';
+
+import Breadcrumbs from '../../../components/Breadcrumbs';
 import Link from '../../../components/Link';
 import Seo from '../../../components/Seo';
 
-const ObriadoviPisniPage = () => {
+const ObriadoviPisniPage = ({ pageContext }) => {
   return (
     <>
       <Seo
@@ -10,8 +12,11 @@ const ObriadoviPisniPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            обрядові пісні
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Обрядові пісні
           </h1>
           <p className="typo-body mt-4 max-w-2xl">
             Обрядові пісні – народні поетичні твори, які супроводжують родинні (весілля, похорон) та календарні (колядки, гаївки-веснянки, русальні, купальські, жнивні) обряди.

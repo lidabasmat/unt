@@ -1,10 +1,12 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
+
+import Breadcrumbs from '../../components/Breadcrumbs';
 import Link from '../../components/Link';
 import List from '../../components/List';
 import Seo from '../../components/Seo';
 
-const ProverbsPage = () => {
+const ProverbsPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       proverbs: allProverb {
@@ -25,8 +27,11 @@ const ProverbsPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            прислів'я та приказки
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Прислів'я та приказки
           </h1>
           <div className="flex-wrap md:flex justify-between">
             <div>

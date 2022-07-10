@@ -1,12 +1,13 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
+import Breadcrumbs from '../../../../components/Breadcrumbs';
 import YoutubeIcon from '../../../../components/icons/YoutubeIcon';
 
 import Link from '../../../../components/Link';
 import Seo from '../../../../components/Seo';
 
-const PisniProRodynneZhyttiaPage = () => {
+const PisniProRodynneZhyttiaPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       songs: allSong(filter: {category: {eq: "pisni-pro-rodynne-zhyttia"}}) {
@@ -29,8 +30,11 @@ const PisniProRodynneZhyttiaPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            пісні про родинне життя
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Пісні про родинне життя
           </h1>
           <p className="typo-body mt-4 max-w-xl">
             Пісні про родинне життя говорять про радість і смуток, щастя материнства й горе сирітства, сімейну злагоду й незгоду.

@@ -3,10 +3,11 @@ import React from 'react';
 
 import YoutubeIcon from '../../../../components/icons/YoutubeIcon';
 
+import Breadcrumbs from '../../../../components/Breadcrumbs';
 import Link from '../../../../components/Link';
 import Seo from '../../../../components/Seo';
 
-const IstorychniPisniPage = () => {
+const IstorychniPisniPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       songs: allSong(filter: {category: {eq: "istorychni-pisni"}}) {
@@ -29,8 +30,11 @@ const IstorychniPisniPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            історичні пісні
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Історичні пісні
           </h1>
           <p className="typo-body mt-4 max-w-xl">
             Історична пісня — це ліро-епічний твір, у якому відтворено історичні події чи конкретні історичні постаті та висловлено ставлення народу до них.

@@ -1,12 +1,13 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
+import Breadcrumbs from '../../../../../components/Breadcrumbs';
 import YoutubeIcon from '../../../../../components/icons/YoutubeIcon';
 
 import Link from '../../../../../components/Link';
 import Seo from '../../../../../components/Seo';
 
-const HolosinniaPage = () => {
+const HolosinniaPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       songs: allSong(filter: {category: {eq: "holosinnia"}}) {
@@ -28,8 +29,11 @@ const HolosinniaPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            голосіння
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Голосіння
           </h1>
           <p className="typo-body mt-4 max-w-lg">
             Голосіння – жанр народної творчостi, художнє вираження туги й горя, болю й розпуки.

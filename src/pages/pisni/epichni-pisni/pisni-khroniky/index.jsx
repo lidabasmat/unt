@@ -3,10 +3,11 @@ import React from 'react';
 
 import YoutubeIcon from '../../../../components/icons/YoutubeIcon';
 
+import Breadcrumbs from '../../../../components/Breadcrumbs';
 import Link from '../../../../components/Link';
 import Seo from '../../../../components/Seo';
 
-const PisniKhronikyPage = () => {
+const PisniKhronikyPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       songs: allSong(filter: {category: {eq: "pisni-khroniky"}}) {
@@ -29,8 +30,11 @@ const PisniKhronikyPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            пісні-хроніки
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Пісні-хроніки
           </h1>
           <p className="typo-body mt-4 max-w-3xl">
             Пісні-хроніки — є літературним жанром, який відображає неординарні, виняткові події громадсько-побутового та родинно-побутового характеру, цей

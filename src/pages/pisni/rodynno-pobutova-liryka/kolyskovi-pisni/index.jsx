@@ -1,12 +1,13 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
+import Breadcrumbs from '../../../../components/Breadcrumbs';
 import YoutubeIcon from '../../../../components/icons/YoutubeIcon';
 
 import Link from '../../../../components/Link';
 import Seo from '../../../../components/Seo';
 
-const KolyskoviPisniPage = () => {
+const KolyskoviPisniPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       songs: allSong(filter: {category: {eq: "kolyskovi-pisni"}}) {
@@ -29,8 +30,11 @@ const KolyskoviPisniPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            колискові пісні
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Колискові пісні
           </h1>
           <p className="typo-body mt-4 max-w-xl">
             Колискова — жанр народної родинної лірики, специфічний зміст і форма якої функціонально зумовлені присиплянням дитини в колисці.

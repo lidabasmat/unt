@@ -3,10 +3,11 @@ import React from 'react';
 
 import YoutubeIcon from '../../../../components/icons/YoutubeIcon';
 
+import Breadcrumbs from '../../../../components/Breadcrumbs';
 import Link from '../../../../components/Link';
 import Seo from '../../../../components/Seo';
 
-const BaladyPage = () => {
+const BaladyPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       songs: allSong(filter: {category: {eq: "balady"}}) {
@@ -29,8 +30,11 @@ const BaladyPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            балади
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Балади
           </h1>
           <p className="typo-body mt-4 max-w-xl">
             Балада — жанр ліро-епічної поезії фантастичного, історико-героїчного або соціально-побутового характеру з драматичним сюжетом.

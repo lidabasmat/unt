@@ -1,12 +1,13 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
+import Breadcrumbs from '../../../../../components/Breadcrumbs';
 import YoutubeIcon from '../../../../../components/icons/YoutubeIcon';
 
 import Link from '../../../../../components/Link';
 import Seo from '../../../../../components/Seo';
 
-const KoliadkyTaShchedrivkyPage = () => {
+const KoliadkyTaShchedrivkyPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       songs1: allSong(filter: {category: {eq: "koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni"}}) {
@@ -76,7 +77,11 @@ const KoliadkyTaShchedrivkyPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+            crumbLabel="Колядки та щедрівки"
+          />
+          <h1 className="typo-h1 mt-4">
             колядки та щедрівки
           </h1>
           <p className="typo-body mt-4 max-w-lg">

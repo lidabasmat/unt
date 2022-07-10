@@ -22,6 +22,7 @@
     "autoprefixer": "^10.4.2",
     "classnames": "^2.3.1",
     "gatsby": "^4.5.2",
+    "gatsby-plugin-breadcrumb": "^12.3.1",
     "gatsby-plugin-canonical-urls": "^4.16.0",
     "gatsby-plugin-google-gtag": "^4.16.0",
     "gatsby-plugin-image": "^2.5.2",

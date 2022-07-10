@@ -1,8 +1,10 @@
 import React from 'react';
+
+import Breadcrumbs from '../../../components/Breadcrumbs';
 import Link from '../../../components/Link';
 import Seo from '../../../components/Seo';
 
-const RodynnoPobutovaLirykaPage = () => {
+const RodynnoPobutovaLirykaPage = ({ pageContext }) => {
   return (
     <>
       <Seo
@@ -10,8 +12,11 @@ const RodynnoPobutovaLirykaPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            родинно-побутова лірика
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Родинно-побутова лірика
           </h1>
           <p className="typo-body mt-4 max-w-3xl">
             Родинно-побутові пісні — це ліричні поетично-музичні твори, в яких відбиті почуття, переживання, думки людини, пов'язані з її особистим життям, подіями в сім'ї, родинними стосунками.

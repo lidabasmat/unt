@@ -1,9 +1,11 @@
 import React from 'react';
+
+import Breadcrumbs from '../../components/Breadcrumbs';
 import Link from '../../components/Link';
 import List from '../../components/List';
 import Seo from '../../components/Seo';
 
-const SongsPage = () => {
+const SongsPage = ({ pageContext }) => {
   return (
     <>
       <Seo
@@ -12,8 +14,11 @@ const SongsPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            пісні
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Пісні
           </h1>
           <p className="typo-body mt-4 max-w-lg">
             Пісня — вірш ліричного або ліро-епічного характеру, мелодичний за своїм інтонаційним малюнком і призначений для співу.

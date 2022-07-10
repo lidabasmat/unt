@@ -1,10 +1,11 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
+import Breadcrumbs from '../components/Breadcrumbs';
 import Link from '../components/Link';
 import Seo from '../components/Seo';
 
-const SkoromovkyPage = () => {
+const SkoromovkyPage = ({ pageContext }) => {
   return (
     <>
       <Seo
@@ -12,8 +13,11 @@ const SkoromovkyPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            скоромовки
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Скоромовки
           </h1>
           <p className="typo-body mt-4 max-w-2xl">
             Скоромовка, швидкомовка або чистомовка — жанр як фольклорного, так і літературного походження: дотепна гра спеціально скомпонованих важковимовних слів, і звуків, що створюють труднощі для швидкої й виразної вимови слів.

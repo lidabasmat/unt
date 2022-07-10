@@ -1,9 +1,12 @@
 import * as React from "react";
-import Seo from '../components/Seo';
+
+import Breadcrumbs from '../components/Breadcrumbs';
+import Link from '../components/Link';
 import List from '../components/List';
+import Seo from '../components/Seo';
 
 // markup
-const PolicyPage = () => {
+const PolicyPage = ({ pageContext }) => {
   return (
     <>
       <Seo
@@ -14,7 +17,11 @@ const PolicyPage = () => {
         <div className="container-lg">
           <div className="row items-center">
             <div className="col-full md:col-6 py-10 md:py-24">
-              <h1 className="typo-h1 max-w-sm lowercase">
+              <Breadcrumbs
+                crumbs={pageContext.breadcrumb.crumbs}
+                crumbLabel="Політика конфіденційності"
+              />
+              <h1 className="typo-h1 max-w-sm lowercase mt-4">
                 Політика конфіденційності
               </h1>
             </div>
@@ -91,6 +98,13 @@ const PolicyPage = () => {
         <p className="typo-body mt-6">
           Користувач приймає умови цієї політики конфіденційності і враховує, що дана політика конфіденційності може
           час від часу змінюватися. Зміни, що вносяться до політики конфіденційності, публікуються на цій сторінці.
+        </p>
+        <p className="mt-6">
+          З питань щодо політики конфіденційності (в т.ч. видалення персональних даних), Користувач може зв'язатися з нами використовуючи e-mail:
+          {' '}
+          <Link to="mailto:contact@folklore.com.ua" className="text-red-500">
+            contact@folklore.com.ua
+          </Link>
         </p>
       </div>
     </>

@@ -1,8 +1,9 @@
 import React from 'react';
+import Breadcrumbs from '../../../../components/Breadcrumbs';
 import Link from '../../../../components/Link';
 import Seo from '../../../../components/Seo';
 
-const KalendarnoObriadoviPisniPage = () => {
+const KalendarnoObriadoviPisniPage = ({ pageContext }) => {
   return (
     <>
       <Seo
@@ -10,7 +11,10 @@ const KalendarnoObriadoviPisniPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
             календарно-обрядові пісні
           </h1>
           <p className="typo-body mt-4 max-w-lg">

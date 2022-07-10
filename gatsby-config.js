@@ -43,10 +43,119 @@ module.exports = {
         name: "gatsby-starter-kit",
         short_name: "starter",
         start_url: "/",
-        background_color: "#4256e7",
-        theme_color: "#4256e7",
+        background_color: "#ff2728",
+        theme_color: "#ff2728",
         display: "minimal-ui",
         icon: "src/images/icon.png", // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-breadcrumb',
+      options: {
+        useAutoGen: true,
+        autoGenHomeLabel: 'Головна',
+        exclude: [
+          '/404/',
+        ],
+        trailingSlashes: true,
+        crumbLabelUpdates: [
+          {
+            pathname: '/pisni',
+            crumbLabel: 'Пісні',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni',
+            crumbLabel: 'Обрядові пісні',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni',
+            crumbLabel: 'Календарно-обрядові пісні',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/koliadky-ta-shchedrivky',
+            crumbLabel: 'Колядки та щедрівки',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/kupalski-pisni',
+            crumbLabel: 'Купальські пісні',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/rusalni-ta-petrivchani-pisni',
+            crumbLabel: 'Русальні та петрівчані пісні',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/vesnianky',
+            crumbLabel: 'Веснянки',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni/kalendarno-obriadovi-pisni/zhnyvarski-pisni',
+            crumbLabel: 'Жниварські пісні',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni/rodynno-obriadovi-pisni',
+            crumbLabel: 'Родинно-обрядові пісні',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/holosinnia',
+            crumbLabel: 'Голосіння',
+          },
+          {
+            pathname: '/pisni/obriadovi-pisni/rodynno-obriadovi-pisni/vesilni-pisni',
+            crumbLabel: 'Весільні пісні',
+          },
+          {
+            pathname: '/pisni/epichni-pisni',
+            crumbLabel: 'Епічні пісні',
+          },
+          {
+            pathname: '/pisni/epichni-pisni/balady',
+            crumbLabel: 'Балади',
+          },
+          {
+            pathname: '/pisni/epichni-pisni/dumy',
+            crumbLabel: 'Думи',
+          },
+          {
+            pathname: '/pisni/epichni-pisni/istorychni-pisni',
+            crumbLabel: 'Історичні пісні',
+          },
+          {
+            pathname: '/pisni/epichni-pisni/pisni-khroniky',
+            crumbLabel: 'Пісні-хроніки',
+          },
+          {
+            pathname: '/pisni/rodynno-pobutova-liryka',
+            crumbLabel: 'Родинно-побутова лірика',
+          },
+          {
+            pathname: '/pisni/rodynno-pobutova-liryka/kolyskovi-pisni',
+            crumbLabel: 'Колискові пісні',
+          },
+          {
+            pathname: '/pisni/rodynno-pobutova-liryka/pisni-pro-kokhannia',
+            crumbLabel: 'Пісні про кохання',
+          },
+          {
+            pathname: '/pisni/rodynno-pobutova-liryka/pisni-pro-rodynne-zhyttia',
+            crumbLabel: 'Пісні про родинне життя',
+          },
+          {
+            pathname: '/pisni/rodynno-pobutova-liryka/zhartivlyvi-pisni',
+            crumbLabel: 'Жартівливі пісні',
+          },
+          {
+            pathname: '/smikhovyny',
+            crumbLabel: 'Сміховини',
+          },
+          {
+            pathname: '/skoromovky',
+            crumbLabel: 'Скоромовки',
+          },
+          {
+            pathname: '/pryslivia-ta-prykazky',
+            crumbLabel: `Прислів'я та приказки`
+          }
+        ],
       },
     },
     {

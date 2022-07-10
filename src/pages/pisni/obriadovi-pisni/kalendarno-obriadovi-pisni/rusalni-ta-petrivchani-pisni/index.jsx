@@ -1,12 +1,13 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
+import Breadcrumbs from '../../../../../components/Breadcrumbs';
 import YoutubeIcon from '../../../../../components/icons/YoutubeIcon';
 
 import Link from '../../../../../components/Link';
 import Seo from '../../../../../components/Seo';
 
-const RusalniTaPetrivchaniPisniPage = () => {
+const RusalniTaPetrivchaniPisniPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       songs: allSong(filter: {category: {eq: "rusalni-ta-petrivchani-pisni"}}) {
@@ -28,8 +29,11 @@ const RusalniTaPetrivchaniPisniPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            русальні та петрівчані пісні
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Русальні та петрівчані пісні
           </h1>
           <div className="flex-wrap md:flex justify-between">
             <div>

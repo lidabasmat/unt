@@ -1,8 +1,10 @@
 import React from 'react';
+
+import Breadcrumbs from '../../../components/Breadcrumbs';
 import Link from '../../../components/Link';
 import Seo from '../../../components/Seo';
 
-const EpichniPisniPage = () => {
+const EpichniPisniPage = ({ pageContext }) => {
   return (
     <>
       <Seo
@@ -10,8 +12,11 @@ const EpichniPisniPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            епічні пісні
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Епічні пісні
           </h1>
           <p className="typo-body mt-4 max-w-2xl">
             Епічні пісні – давні фольклорні віршовані твори, що розповідають про народних героїв та їхні подвиги.

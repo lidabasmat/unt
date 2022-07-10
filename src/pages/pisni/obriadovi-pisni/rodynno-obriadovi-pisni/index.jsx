@@ -1,8 +1,10 @@
 import React from 'react';
+
+import Breadcrumbs from '../../../../components/Breadcrumbs';
 import Link from '../../../../components/Link';
 import Seo from '../../../../components/Seo';
 
-const RodynnoObriadoviPisniPage = () => {
+const RodynnoObriadoviPisniPage = ({ pageContext }) => {
   return (
     <>
       <Seo
@@ -10,8 +12,11 @@ const RodynnoObriadoviPisniPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1">
-            родинно-обрядові пісні
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 lowercase mt-4">
+            Родинно-обрядові пісні
           </h1>
           <p className="typo-body mt-4 max-w-2xl">
             Родинно-обрядові пісні — цикл, що супроводжує обрядові пісні, пов'язані із такими найважливішими родинними подіями, як народження, створення сім'ї, смерть.
