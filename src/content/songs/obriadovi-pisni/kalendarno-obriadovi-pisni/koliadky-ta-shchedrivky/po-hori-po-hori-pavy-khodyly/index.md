@@ -1,6 +1,7 @@
 ---
 slug: po-hori-po-hori-pavy-khodyly
 title: По горі, по горі  пави ходили
+author: Український фольклор
 category: koliadky-ta-shchedrivky-divchyni
 ---
 ```

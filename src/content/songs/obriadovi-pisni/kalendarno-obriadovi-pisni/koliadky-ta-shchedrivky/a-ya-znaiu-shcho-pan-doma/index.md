@@ -1,6 +1,7 @@
 ---
 slug: a-ya-znaiu-shcho-pan-doma
 title: А я знаю, що пан дома
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 hasYoutube: true
 ---

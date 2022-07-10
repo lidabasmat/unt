@@ -1,6 +1,7 @@
 ---
 slug: yake-ty-da-soneiko-nedohadlyve
 title: Яке ти, да сонейко, недогадливе
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

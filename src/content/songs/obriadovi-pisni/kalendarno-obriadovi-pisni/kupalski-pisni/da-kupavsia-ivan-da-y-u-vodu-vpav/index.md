@@ -1,6 +1,7 @@
 ---
 slug: da-kupavsia-ivan-da-y-u-vodu-vpav
 title: Да купався Іван, да й у воду впав
+author: Український фольклор
 category: kupalski-pisni
 ---
 Да купався Іван, да й у воду впав.

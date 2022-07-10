@@ -1,6 +1,7 @@
 ---
 slug: a-sonechko-kotytsia-kotytsia
 title: А сонечко котиться, котиться
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

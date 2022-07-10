@@ -1,6 +1,7 @@
 ---
 slug: a-v-luzi-v-luzi-a-v-kalynovim
 title: А в лузі, в лузі, а в калиновім
+author: Український фольклор
 category: koliadky-ta-shchedrivky-vdovi
 ---
 ```

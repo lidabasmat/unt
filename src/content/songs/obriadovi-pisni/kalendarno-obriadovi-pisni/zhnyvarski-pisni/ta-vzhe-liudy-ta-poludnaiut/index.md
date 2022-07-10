@@ -1,6 +1,7 @@
 ---
 slug: ta-vzhe-liudy-ta-poludnaiut
 title: Та вже люди та полуднають
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

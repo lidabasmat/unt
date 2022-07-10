@@ -1,6 +1,7 @@
 ---
 slug: divky-charivnytsi
 title: Дівки чарівниці
+author: Український фольклор
 category: vesnianky
 ---
 ```

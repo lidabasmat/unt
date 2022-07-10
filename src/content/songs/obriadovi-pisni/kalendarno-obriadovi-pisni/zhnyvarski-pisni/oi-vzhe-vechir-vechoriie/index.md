@@ -1,6 +1,7 @@
 ---
 slug: oi-vzhe-vechir-vechoriie
 title: Ой вже вечір, вечоріє
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

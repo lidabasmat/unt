@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from '../../utils/PropTypes';
 import { Helmet } from 'react-helmet';
 
-function Seo({ description, lang, meta, title, image }) {
+function Seo({ children, description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -74,11 +74,14 @@ function Seo({ description, lang, meta, title, image }) {
           content: `${siteUrl}${defaultImage}`,
         },
       ].concat(meta)}
-    />
+    >
+      {children}
+    </Helmet>
   )
 }
 
 Seo.defaultProps = {
+  children: null,
   lang: 'uk',
   meta: [],
   title: '',
@@ -87,6 +90,7 @@ Seo.defaultProps = {
 };
 
 Seo.propTypes = {
+  children: PropTypes.node,
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),

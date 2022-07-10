@@ -1,6 +1,7 @@
 ---
 slug: oi-u-nashoi-hospodynenky
 title: Ой у нашої господиненьки
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodyni
 ---
 ```

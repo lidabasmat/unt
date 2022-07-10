@@ -1,6 +1,7 @@
 ---
 slug: oi-lisom-lisom-dorizhkoiu
 title: Ой лісом, лісом-доріжкою
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

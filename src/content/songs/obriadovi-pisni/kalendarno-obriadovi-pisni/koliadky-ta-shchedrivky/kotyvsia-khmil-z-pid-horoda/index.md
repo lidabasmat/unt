@@ -1,6 +1,7 @@
 ---
 slug: kotyvsia-khmil-z-pid-horoda
 title: Котився хміль з-під города
+author: Український фольклор
 category: dytiachi-koliadky-shchedrivky-zasivalky-posypalky
 ---
 ```

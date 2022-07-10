@@ -1,6 +1,7 @@
 ---
 slug: sydila-rusalka-na-bilii-berezi
 title: Сиділа русалка на білій березі
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 hasYoutube: true
 ---

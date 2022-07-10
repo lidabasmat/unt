@@ -1,6 +1,7 @@
 ---
 slug: oi-vykhodte-paruboiky
 title: Ой виходьте, парубойки
+author: Український фольклор
 category: vesnianky
 ---
 ```

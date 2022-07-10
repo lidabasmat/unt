@@ -1,6 +1,7 @@
 ---
 slug: proty-ivana-sontse-ihralo
 title: Проти Івана сонце іграло
+author: Український фольклор
 category: kupalski-pisni
 ---
 Проти Івана сонце іграло,

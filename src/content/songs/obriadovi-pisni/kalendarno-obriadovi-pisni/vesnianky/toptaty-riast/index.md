@@ -1,6 +1,7 @@
 ---
 slug: toptaty-riast
 title: Топтати ряст
+author: Український фольклор
 category: vesnianky
 ---
 ```

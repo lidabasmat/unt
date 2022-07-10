@@ -1,6 +1,7 @@
 ---
 slug: vyidy-vyidy-ivanku
 title: Вийди, вийди, Іванку
+author: Український фольклор
 category: vesnianky
 ---
 ```

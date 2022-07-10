@@ -1,6 +1,7 @@
 ---
 slug: oi-ustan-ustan-hospodarenku
 title: Ой устань, устань, господареньку
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 ```

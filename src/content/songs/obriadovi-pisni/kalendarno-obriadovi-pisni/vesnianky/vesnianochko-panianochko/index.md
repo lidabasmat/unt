@@ -1,6 +1,7 @@
 ---
 slug: vesnianochko-panianochko
 title: Весняночко-паняночко
+author: Український фольклор
 category: vesnianky
 ---
 ```

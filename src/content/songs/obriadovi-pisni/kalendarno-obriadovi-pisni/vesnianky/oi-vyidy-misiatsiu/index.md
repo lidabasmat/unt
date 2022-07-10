@@ -1,6 +1,7 @@
 ---
 slug: oi-vyidy-misiatsiu
 title: Ой вийди місяцю
+author: Український фольклор
 category: vesnianky
 ---
 ```

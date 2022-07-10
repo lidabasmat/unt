@@ -1,6 +1,7 @@
 ---
 slug: v-sadu-sadochku-pid-kedrynochkov
 title: В саду, садочку, під кедриночков
+author: Український фольклор
 category: koliadky-ta-shchedrivky-vdovi
 ---
 ```

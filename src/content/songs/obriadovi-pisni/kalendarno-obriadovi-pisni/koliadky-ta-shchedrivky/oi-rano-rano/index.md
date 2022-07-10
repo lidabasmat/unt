@@ -1,6 +1,7 @@
 ---
 slug: oi-rano-rano
 title: Ой рано, рано
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 ```

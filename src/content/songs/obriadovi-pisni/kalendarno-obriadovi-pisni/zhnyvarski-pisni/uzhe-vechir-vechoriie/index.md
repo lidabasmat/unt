@@ -1,6 +1,7 @@
 ---
 slug: uzhe-vechir-vechoriie
 title: Уже вечір, вечоріє
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

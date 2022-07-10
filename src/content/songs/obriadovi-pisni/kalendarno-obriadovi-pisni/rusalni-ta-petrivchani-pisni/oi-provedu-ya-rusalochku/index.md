@@ -1,6 +1,7 @@
 ---
 slug: oi-provedu-ya-rusalochku
 title: Ой проведу я русалочку
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

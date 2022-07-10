@@ -1,6 +1,7 @@
 ---
 slug: oi-ziidy-ziidy-yasen-misiatsiu
 title: Ой, зійди, зійди, ясен місяцю
+author: Український фольклор
 category: pisni-pro-kokhannia
 hasYoutube: true
 ---

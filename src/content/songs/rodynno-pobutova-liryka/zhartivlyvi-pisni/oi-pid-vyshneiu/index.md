@@ -1,6 +1,7 @@
 ---
 slug: oi-pid-vyshneiu
 title: Ой під вишнею
+author: Український фольклор
 category: zhartivlyvi-pisni
 hasYoutube: true
 ---

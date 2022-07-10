@@ -1,6 +1,7 @@
 ---
 slug: oi-ziidimos-podruzhenky
 title: Ой зійдімось, подруженьки
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

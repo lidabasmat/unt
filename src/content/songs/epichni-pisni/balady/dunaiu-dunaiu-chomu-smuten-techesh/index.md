@@ -1,6 +1,7 @@
 ---
 slug: dunaiu-dunaiu-chomu-smuten-techesh
 title: Дунаю, Дунаю, чому смутен течеш
+author: Український фольклор
 category: balady
 hasYoutube: true
 ---

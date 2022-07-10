@@ -1,6 +1,7 @@
 ---
 slug: krokoveie-koleso-koleso
 title: Кроковеє колесо, колесо
+author: Український фольклор
 category: vesnianky
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: shchedryk-vedryk
 title: Щедрик, ведрик
+author: Український фольклор
 category: dytiachi-koliadky-shchedrivky-zasivalky-posypalky
 ---
 ```

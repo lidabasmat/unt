@@ -1,6 +1,7 @@
 ---
 slug: oranka-zviramy
 title: Оранка звірами
+author: Український фольклор
 category: koza-i-malanka
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: oi-spy-dytia-v-kolysontsi
 title: Ой спи, дитя, в колисоньці
+author: Український фольклор
 category: kolyskovi-pisni
 hasYoutube: true
 ---

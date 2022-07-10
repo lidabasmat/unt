@@ -1,6 +1,7 @@
 ---
 slug: dyvuvalasia-yalytsia
 title: Дивувалася ялиця
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

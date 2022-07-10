@@ -1,6 +1,7 @@
 ---
 slug: letiv-orel-cherez-dolynu
 title: Летів орел через долину
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 Летів орел через долину,

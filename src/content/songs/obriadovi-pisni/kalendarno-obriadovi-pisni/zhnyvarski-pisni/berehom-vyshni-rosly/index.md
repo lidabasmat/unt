@@ -1,6 +1,7 @@
 ---
 slug: berehom-vyshni-rosly
 title: Берегом вишні росли
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

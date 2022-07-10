@@ -1,6 +1,7 @@
 ---
 slug: podoleshnychok-mii-zelenenkyi
 title: Подолешничок мій зелененький
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

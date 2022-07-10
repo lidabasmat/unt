@@ -1,6 +1,7 @@
 ---
 slug: a-u-poli-v-poli-da-y-krai-dorohy
 title: А у полі, в полі да й край дороги
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 ```

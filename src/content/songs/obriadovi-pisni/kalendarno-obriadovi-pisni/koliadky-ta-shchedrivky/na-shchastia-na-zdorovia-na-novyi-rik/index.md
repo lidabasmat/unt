@@ -1,6 +1,7 @@
 ---
 slug: na-shchastia-na-zdorovia-na-novyi-rik
 title: На щастя, на здоров’я, на Новий рік
+author: Український фольклор
 category: dytiachi-koliadky-shchedrivky-zasivalky-posypalky
 ---
 ```

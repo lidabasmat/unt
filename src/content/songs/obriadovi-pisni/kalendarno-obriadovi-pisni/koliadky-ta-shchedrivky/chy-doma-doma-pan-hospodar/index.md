@@ -1,6 +1,7 @@
 ---
 slug: chy-doma-doma-pan-hospodar
 title: Чи дома, дома пан господар?
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 Чи дома, дома пан господар?

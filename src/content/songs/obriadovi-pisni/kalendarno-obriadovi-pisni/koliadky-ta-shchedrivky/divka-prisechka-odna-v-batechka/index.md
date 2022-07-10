@@ -1,6 +1,7 @@
 ---
 slug: divka-prisechka-odna-v-batechka
 title: Дівка Прісечка одна в батечка
+author: Український фольклор
 category: koliadky-ta-shchedrivky-divchyni
 ---
 Дівка Прісечка одна в батечка.

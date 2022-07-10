@@ -1,6 +1,7 @@
 ---
 slug: lon
 title: Льон
+author: Український фольклор
 category: vesnianky
 ---
 ```

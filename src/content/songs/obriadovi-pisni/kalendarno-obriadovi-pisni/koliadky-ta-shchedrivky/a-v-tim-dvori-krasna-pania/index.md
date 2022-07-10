@@ -1,6 +1,7 @@
 ---
 slug: a-v-tim-dvori-krasna-pania
 title: А в тім дворі красна паня
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodyni
 ---
 ```

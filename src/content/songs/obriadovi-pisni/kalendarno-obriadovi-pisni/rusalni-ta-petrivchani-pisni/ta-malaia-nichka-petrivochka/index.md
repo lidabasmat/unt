@@ -1,6 +1,7 @@
 ---
 slug: ta-malaia-nichka-petrivochka
 title: Та малая нічка-петрівочка
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

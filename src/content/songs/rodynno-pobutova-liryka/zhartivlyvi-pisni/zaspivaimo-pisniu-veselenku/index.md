@@ -1,6 +1,7 @@
 ---
 slug: zaspivaimo-pisniu-veselenku
 title: Заспіваймо пісню веселеньку
+author: Український фольклор
 category: zhartivlyvi-pisni
 hasYoutube: true
 ---

@@ -1,6 +1,7 @@
 ---
 slug: vyletiv-sokil-z-kyieva-na-dvir
 title: Вилетів сокіл з Києва на двір
+author: Український фольклор
 category: koliadky-ta-shchedrivky-divchyni
 ---
 Вилетів сокіл з Києва на двір,

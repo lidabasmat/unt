@@ -1,6 +1,7 @@
 ---
 slug: y-a-v-poli-ta-na-sukhodoli
 title: Й а в полі та на суходолі
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 ```

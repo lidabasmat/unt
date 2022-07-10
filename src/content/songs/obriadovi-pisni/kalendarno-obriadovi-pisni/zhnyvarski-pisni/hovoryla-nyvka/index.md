@@ -1,6 +1,7 @@
 ---
 slug: hovoryla-nyvka
 title: Говорила нивка
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

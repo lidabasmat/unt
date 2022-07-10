@@ -1,6 +1,7 @@
 ---
 slug: ai-nu-liuli-liuli-liuli
 title: Ай ну, люлі-люлі-люлі
+author: Український фольклор
 category: kolyskovi-pisni
 ---
 ```

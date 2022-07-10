@@ -1,6 +1,7 @@
 ---
 slug: oi-kresaly-serpyky-po-hori
 title: Ой кресали серпики по горі
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: pidem-divky-na-yahidky
 title: Підем, дівки, на ягідки
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

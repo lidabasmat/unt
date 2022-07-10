@@ -1,6 +1,7 @@
 ---
 slug: shchuka-ryba-v-mori-hraie
 title: Щука-риба в морі грає
+author: Український фольклор
 category: kolyskovi-pisni
 ---
 ```

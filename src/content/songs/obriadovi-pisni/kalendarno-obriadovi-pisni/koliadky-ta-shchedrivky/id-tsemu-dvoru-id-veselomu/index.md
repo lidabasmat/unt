@@ -1,6 +1,7 @@
 ---
 slug: id-tsemu-dvoru-id-veselomu
 title: Ід цему двору, ід веселому
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 ```

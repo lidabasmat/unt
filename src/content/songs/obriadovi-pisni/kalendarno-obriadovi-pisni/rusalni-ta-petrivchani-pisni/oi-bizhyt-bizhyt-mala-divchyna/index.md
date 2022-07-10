@@ -1,6 +1,7 @@
 ---
 slug: oi-bizhyt-bizhyt-mala-divchyna
 title: Ой біжить, біжить мала дівчина
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

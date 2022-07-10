@@ -1,6 +1,7 @@
 ---
 slug: stoit-zhe-stoit-nova-svitlonka
 title: Стоїть же, стоїть нова світлонька
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 ```

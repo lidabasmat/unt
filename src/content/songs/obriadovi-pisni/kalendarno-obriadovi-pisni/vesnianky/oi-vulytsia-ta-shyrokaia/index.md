@@ -1,6 +1,7 @@
 ---
 slug: oi-vulytsia-ta-shyrokaia
 title: Ой вулиця та широкая
+author: Український фольклор
 category: vesnianky
 hasYoutube: true
 ---

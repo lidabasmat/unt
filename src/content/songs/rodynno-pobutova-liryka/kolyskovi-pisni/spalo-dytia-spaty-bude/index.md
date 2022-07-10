@@ -1,6 +1,7 @@
 ---
 slug: spalo-dytia-spaty-bude
 title: Спало дитя, спати буде
+author: Український фольклор
 category: kolyskovi-pisni
 ---
 ```

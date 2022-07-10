@@ -1,6 +1,7 @@
 ---
 slug: hei-voloshyn-sino-kosyt
 title: Гей, волошин сіно косить
+author: Український фольклор
 category: zhartivlyvi-pisni
 hasYoutube: true
 ---

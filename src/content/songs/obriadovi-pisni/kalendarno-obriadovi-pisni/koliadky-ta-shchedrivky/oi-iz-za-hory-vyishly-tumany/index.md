@@ -1,6 +1,7 @@
 ---
 slug: oi-iz-za-hory-vyishly-tumany
 title: Ой із-за гори вийшли тумани
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 ```

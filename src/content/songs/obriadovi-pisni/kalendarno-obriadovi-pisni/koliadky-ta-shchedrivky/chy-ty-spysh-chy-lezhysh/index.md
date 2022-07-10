@@ -1,6 +1,7 @@
 ---
 slug: chy-ty-spysh-chy-lezhysh
 title: Чи ти спиш, чи лежиш
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 ```

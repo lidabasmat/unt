@@ -1,6 +1,7 @@
 ---
 slug: koliad-koliad-koliadnytsia
 title: Коляд, коляд, колядниця
+author: Український фольклор
 category: dytiachi-koliadky-shchedrivky-zasivalky-posypalky
 ---
 ```

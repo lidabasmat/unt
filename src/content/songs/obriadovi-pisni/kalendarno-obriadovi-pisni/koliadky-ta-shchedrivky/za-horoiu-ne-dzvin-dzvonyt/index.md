@@ -1,6 +1,7 @@
 ---
 slug: za-horoiu-ne-dzvin-dzvonyt
 title: За горою не дзвін дзвонить
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 ```

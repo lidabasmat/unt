@@ -1,6 +1,7 @@
 ---
 slug: koliadyn-koliadyn
 title: Колядин, колядин
+author: Український фольклор
 category: dytiachi-koliadky-shchedrivky-zasivalky-posypalky
 ---
 ```

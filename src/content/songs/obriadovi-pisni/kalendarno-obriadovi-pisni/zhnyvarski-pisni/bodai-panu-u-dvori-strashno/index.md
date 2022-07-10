@@ -1,6 +1,7 @@
 ---
 slug: bodai-panu-u-dvori-strashno
 title: Бодай пану у дворі страшно
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

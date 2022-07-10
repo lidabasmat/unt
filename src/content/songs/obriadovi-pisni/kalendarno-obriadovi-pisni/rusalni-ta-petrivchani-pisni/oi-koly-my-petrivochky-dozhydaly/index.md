@@ -1,6 +1,7 @@
 ---
 slug: oi-koly-my-petrivochky-dozhydaly
 title: Ой коли ми петрівочки дожидали
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

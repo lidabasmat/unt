@@ -1,6 +1,7 @@
 ---
 slug: za-vasylem-za-vasylem
 title: За Василем, за Василем
+author: Український фольклор
 category: vesnianky
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: tam-za-horoiu-za-kamianoiu
 title: Там за горою, за кам’яною
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 ```

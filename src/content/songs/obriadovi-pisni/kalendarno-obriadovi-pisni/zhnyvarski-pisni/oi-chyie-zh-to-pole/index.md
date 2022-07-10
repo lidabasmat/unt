@@ -1,6 +1,7 @@
 ---
 slug: oi-chyie-zh-to-pole
 title: Ой чиє ж то поле
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

@@ -14,7 +14,20 @@ const SongPage = ({ data, location }) => {
       <Seo
         title={`${song.title} - Українська пісня`}
         description={`${song.title}: текст пісні`}
-      />
+      >
+        <script type='application/ld+json'>
+          {`{
+              "@context": "https://schema.org",
+              "@type": "CreativeWork",
+              "name": "${song.title}",
+              "description": "Українська народна пісня: ${song.title}",
+              "abstract": "Українська народна пісня: ${song.title}",
+              "author": "${song.author}",
+              "url": "${site.siteMetadata.siteUrl}${location.pathname}",
+              "accessMode": "textual"
+          }`}
+        </script>
+      </Seo>
       <div className="container-md py-10 md:py-20">
       <h1 className="typo-h1">
         {song.title}
@@ -45,6 +58,7 @@ export const pageQuery = graphql`
   query($slug: String!) {
     song: song(slug: { eq: $slug }) {
       title
+      author
       content {
         body
       }

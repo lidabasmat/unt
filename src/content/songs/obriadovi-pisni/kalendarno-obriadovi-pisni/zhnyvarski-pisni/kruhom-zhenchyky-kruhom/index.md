@@ -1,6 +1,7 @@
 ---
 slug: kruhom-zhenchyky-kruhom
 title: Кругом, женчики, кругом
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

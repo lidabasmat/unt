@@ -1,6 +1,7 @@
 ---
 slug: zolotii-serpyky-briazhchaly
 title: Золотії серпики бряжчали
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

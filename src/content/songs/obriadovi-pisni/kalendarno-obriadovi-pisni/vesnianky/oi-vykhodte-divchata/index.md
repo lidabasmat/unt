@@ -1,6 +1,7 @@
 ---
 slug: oi-vykhodte-divchata
 title: Ой виходьте, дівчата
+author: Український фольклор
 category: vesnianky
 hasYoutube: true
 ---

@@ -1,6 +1,7 @@
 ---
 slug: v-pana-hospodaria
 title: В пана господаря
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 ```

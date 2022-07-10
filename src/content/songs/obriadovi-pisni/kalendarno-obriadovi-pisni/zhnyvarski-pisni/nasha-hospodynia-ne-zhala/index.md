@@ -1,6 +1,7 @@
 ---
 slug: nasha-hospodynia-ne-zhala
 title: Наша господиня не жала
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: nedaleko-do-mezhi
 title: Недалеко до межі
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

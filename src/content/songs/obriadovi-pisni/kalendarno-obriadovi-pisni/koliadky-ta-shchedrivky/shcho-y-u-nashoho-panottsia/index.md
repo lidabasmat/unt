@@ -1,6 +1,7 @@
 ---
 slug: shcho-y-u-nashoho-panottsia
 title: Що й у нашого панотця
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 ```

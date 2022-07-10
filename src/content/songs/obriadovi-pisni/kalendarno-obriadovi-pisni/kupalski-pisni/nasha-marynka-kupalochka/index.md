@@ -1,6 +1,7 @@
 ---
 slug: nasha-marynka-kupalochka
 title: Наша Маринка-купалочка
+author: Український фольклор
 category: kupalski-pisni
 hasYoutube: true
 ---

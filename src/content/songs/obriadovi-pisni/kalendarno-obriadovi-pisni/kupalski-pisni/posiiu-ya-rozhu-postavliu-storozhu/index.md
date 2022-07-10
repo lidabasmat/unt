@@ -1,6 +1,7 @@
 ---
 slug: posiiu-ya-rozhu-postavliu-storozhu
 title: Посію я рожу, поставлю сторожу
+author: Український фольклор
 category: kupalski-pisni
 ---
 Посію я рожу, поставлю сторожу;

@@ -1,6 +1,7 @@
 ---
 slug: zelenaia-dibrovonko
 title: Зеленая дібровонько
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

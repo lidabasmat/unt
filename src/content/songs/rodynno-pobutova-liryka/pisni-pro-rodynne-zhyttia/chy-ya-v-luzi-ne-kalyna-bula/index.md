@@ -1,6 +1,7 @@
 ---
 slug: chy-ya-v-luzi-ne-kalyna-bula
 title: Чи я в лузі не калина була
+author: Український фольклор
 category: pisni-pro-rodynne-zhyttia
 hasYoutube: true
 ---

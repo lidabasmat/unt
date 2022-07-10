@@ -1,6 +1,7 @@
 ---
 slug: divka-natalochka-pshenychenku-zhala
 title: Дівка Наталочка пшениченьку жала
+author: Український фольклор
 category: koliadky-ta-shchedrivky-divchyni
 ---
 Дівка Наталочка пшениченьку жала.

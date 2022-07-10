@@ -1,6 +1,7 @@
 ---
 slug: oves
 title: Овес
+author: Український фольклор
 category: vesnianky
 ---
 ```

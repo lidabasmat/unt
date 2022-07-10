@@ -1,6 +1,7 @@
 ---
 slug: yikhav-pavlechko-cherez-hustyi-lisok
 title: Їхав Павлечко через густий лісок
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 ```

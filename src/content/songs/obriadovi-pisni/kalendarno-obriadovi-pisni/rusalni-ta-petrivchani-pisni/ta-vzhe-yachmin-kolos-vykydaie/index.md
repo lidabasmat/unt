@@ -1,6 +1,7 @@
 ---
 slug: a-vzhe-yachmin-kolos-vykydaie
 title: Та вже ячмінь колос викидає
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

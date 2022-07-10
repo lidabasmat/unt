@@ -1,6 +1,7 @@
 ---
 slug: ziishlo-ziishlo-try-misiatsi
 title: Зійшло, зійшло три місяці
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 Зійшло, зійшло три місяці,

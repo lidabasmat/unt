@@ -1,6 +1,7 @@
 ---
 slug: pryletila-zozulenka
 title: Прилетіла зозуленька
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

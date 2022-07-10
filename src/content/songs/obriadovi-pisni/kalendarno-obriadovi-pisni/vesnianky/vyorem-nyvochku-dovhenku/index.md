@@ -1,6 +1,7 @@
 ---
 slug: vyorem-nyvochku-dovhenku
 title: Виорем нивочку довгеньку
+author: Український фольклор
 category: vesnianky
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: blahoslovy-maty
 title: Благослови, мати
+author: Український фольклор
 category: vesnianky
 hasYoutube: true
 ---

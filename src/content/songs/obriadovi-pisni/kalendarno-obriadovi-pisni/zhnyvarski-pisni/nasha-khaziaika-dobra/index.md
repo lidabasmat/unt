@@ -1,6 +1,7 @@
 ---
 slug: nasha-khaziaika-dobra
 title: Наша хазяйка добра
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

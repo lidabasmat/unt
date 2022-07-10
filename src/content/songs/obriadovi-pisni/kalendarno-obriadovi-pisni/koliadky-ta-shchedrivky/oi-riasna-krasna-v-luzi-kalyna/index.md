@@ -1,6 +1,7 @@
 ---
 slug: oi-riasna-krasna-v-luzi-kalyna
 title: Ой рясна, красна в лузі калина
+author: Український фольклор
 category: koliadky-ta-shchedrivky-divchyni
 hasYoutube: true
 ---

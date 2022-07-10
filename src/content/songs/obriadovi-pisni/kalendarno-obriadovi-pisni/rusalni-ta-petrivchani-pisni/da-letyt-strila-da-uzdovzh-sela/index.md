@@ -1,6 +1,7 @@
 ---
 slug: da-letyt-strila-da-uzdovzh-sela
 title: Да летить стріла да уздовж села
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

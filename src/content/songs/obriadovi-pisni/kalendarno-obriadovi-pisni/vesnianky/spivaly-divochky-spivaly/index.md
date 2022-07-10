@@ -1,6 +1,7 @@
 ---
 slug: spivaly-divochky-spivaly
 title: Співали дівочки, співали
+author: Український фольклор
 category: vesnianky
 ---
 ```

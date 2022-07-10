@@ -1,6 +1,7 @@
 ---
 slug: oi-petrivna-zozulenko
 title: Ой петрівна зозуленько
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

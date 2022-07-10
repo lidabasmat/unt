@@ -1,6 +1,7 @@
 ---
 slug: ty-zozulenko-syva
 title: Ти, зозуленько сива
+author: Український фольклор
 category: vesnianky
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: oi-v-lisku-v-lisku-lystia-na-hrabi
 title: Ой в ліску, в ліску листя на грабі
+author: Український фольклор
 category: koliadky-ta-shchedrivky-babusi
 ---
 ```

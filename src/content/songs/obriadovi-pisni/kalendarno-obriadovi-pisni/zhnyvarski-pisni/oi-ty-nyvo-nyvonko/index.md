@@ -1,6 +1,7 @@
 ---
 slug: oi-ty-nyvo-nyvonko
 title: Ой ти ниво, нивонько
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

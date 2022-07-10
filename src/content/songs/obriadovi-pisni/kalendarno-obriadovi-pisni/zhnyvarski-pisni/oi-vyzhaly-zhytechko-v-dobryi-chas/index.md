@@ -1,6 +1,7 @@
 ---
 slug: oi-vyzhaly-zhytechko-v-dobryi-chas
 title: Ой вижали житечко в добрий час
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: oi-yasna-yasna-na-nebi-zoria
 title: Ой ясна, ясна на небі зоря
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodyni
 ---
 ```

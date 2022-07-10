@@ -1,6 +1,7 @@
 ---
 slug: a-a-liulechky
 title: А-а, люлечки
+author: Український фольклор
 category: kolyskovi-pisni
 ---
 ```

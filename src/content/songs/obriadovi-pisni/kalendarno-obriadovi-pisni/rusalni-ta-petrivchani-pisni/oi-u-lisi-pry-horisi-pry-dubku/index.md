@@ -1,6 +1,7 @@
 ---
 slug: oi-u-lisi-pry-horisi-pry-dubku
 title: Ой у лісі при горісі, при дубку
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

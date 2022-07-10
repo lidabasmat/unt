@@ -1,6 +1,7 @@
 ---
 slug: oi-chy-ye-chy-nema-pan-hospodar-vdoma
 title: Ой чи є, чи нема пан господар вдома
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 hasYoutube: true
 ---

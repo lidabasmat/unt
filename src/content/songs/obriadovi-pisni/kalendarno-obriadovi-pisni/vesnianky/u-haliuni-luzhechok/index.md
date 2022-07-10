@@ -1,6 +1,7 @@
 ---
 slug: u-haliuni-luzhechok
 title: У Галюні лужечок
+author: Український фольклор
 category: vesnianky
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: misiachenku-mii-bratyku
 title: Місяченьку, мій братику
+author: Український фольклор
 category: dytiachi-koliadky-shchedrivky-zasivalky-posypalky
 ---
 ```

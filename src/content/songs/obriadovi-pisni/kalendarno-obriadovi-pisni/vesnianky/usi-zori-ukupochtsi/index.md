@@ -1,6 +1,7 @@
 ---
 slug: usi-zori-ukupochtsi
 title: Усі зорі укупочці
+author: Український фольклор
 category: vesnianky
 ---
 ```

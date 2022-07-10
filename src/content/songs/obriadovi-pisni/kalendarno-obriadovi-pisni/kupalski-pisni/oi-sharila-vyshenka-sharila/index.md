@@ -1,6 +1,7 @@
 ---
 slug: oi-sharila-vyshenka-sharila
 title: Ой шаріла вишенька, шаріла
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

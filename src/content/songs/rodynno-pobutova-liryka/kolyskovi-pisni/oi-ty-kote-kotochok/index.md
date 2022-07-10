@@ -1,6 +1,7 @@
 ---
 slug: oi-ty-kote-kotochok
 title: Ой ти, коте, коточок
+author: Український фольклор
 category: kolyskovi-pisni
 hasYoutube: true
 ---

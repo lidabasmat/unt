@@ -1,6 +1,7 @@
 ---
 slug: u-vyshnevim-sadochku
 title: У вишневім садочку
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

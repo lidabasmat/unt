@@ -1,6 +1,7 @@
 ---
 slug: oi-uzhe-sontse-nad-verbamy
 title: Ой уже сонце над вербами
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

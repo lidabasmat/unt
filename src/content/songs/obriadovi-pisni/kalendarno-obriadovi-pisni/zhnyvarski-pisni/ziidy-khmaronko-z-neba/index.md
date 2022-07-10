@@ -1,6 +1,7 @@
 ---
 slug: ziidy-khmaronko-z-neba
 title: Зійди, хмаронько, з неба
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: oi-ya-vyidu-na-mahurku-mahurka-bilenka
 title: Ой я вийду на Магурку — Магурка біленька
+author: Український фольклор
 category: pisni-khroniky
 ---
 ```

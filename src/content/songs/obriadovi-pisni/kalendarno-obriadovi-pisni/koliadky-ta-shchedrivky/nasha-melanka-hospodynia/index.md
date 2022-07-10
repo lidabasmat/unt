@@ -1,6 +1,7 @@
 ---
 slug: nasha-melanka-hospodynia
 title: Наша Меланка господиня
+author: Український фольклор
 category: koza-i-malanka
 hasYoutube: true
 ---

@@ -1,6 +1,7 @@
 ---
 slug: orel-pole-vyorav
 title: Орел поле виорав
+author: Український фольклор
 category: vesnianky
 ---
 ```

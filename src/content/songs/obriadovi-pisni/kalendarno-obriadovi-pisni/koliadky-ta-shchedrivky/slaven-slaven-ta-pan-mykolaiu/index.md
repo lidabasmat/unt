@@ -1,6 +1,7 @@
 ---
 slug: slaven-slaven-ta-pan-mykolaiu
 title: Славен, славен та пан Mиколаю
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 Славен, славен та пан Миколаю [1].

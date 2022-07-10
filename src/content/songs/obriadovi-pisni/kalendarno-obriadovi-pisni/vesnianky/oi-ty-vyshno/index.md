@@ -1,6 +1,7 @@
 ---
 slug: oi-ty-vyshno
 title: Ой ти, вишньо
+author: Український фольклор
 category: vesnianky
 ---
 ```

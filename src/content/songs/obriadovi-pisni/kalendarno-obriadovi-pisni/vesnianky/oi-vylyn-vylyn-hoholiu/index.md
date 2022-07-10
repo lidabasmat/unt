@@ -1,6 +1,7 @@
 ---
 slug: oi-vylyn-vylyn-hoholiu
 title: Ой вилинь, вилинь, гоголю
+author: Український фольклор
 category: vesnianky
 ---
 ```

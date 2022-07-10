@@ -1,6 +1,7 @@
 ---
 slug: oi-na-ivana-na-kupaila
 title: Ой на Івана на Купайла
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

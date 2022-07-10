@@ -1,6 +1,7 @@
 ---
 slug: oi-na-kupala-kupalochka
 title: Ой на Купала-Купалочка
+author: Український фольклор
 category: kupalski-pisni
 hasYoutube: true
 ---

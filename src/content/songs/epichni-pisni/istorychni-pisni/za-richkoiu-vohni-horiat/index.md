@@ -1,6 +1,7 @@
 ---
 slug: za-richkoiu-vohni-horiat
 title: За річкою вогні горять
+author: Український фольклор
 category: istorychni-pisni
 ---
 ```

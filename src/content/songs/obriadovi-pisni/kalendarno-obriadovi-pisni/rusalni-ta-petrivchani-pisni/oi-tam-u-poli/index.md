@@ -1,6 +1,7 @@
 ---
 slug: oi-tam-u-poli
 title: Ой там у полі
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

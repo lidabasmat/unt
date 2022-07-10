@@ -1,6 +1,7 @@
 ---
 slug: oi-spy-dytia-bez-spovyttia
 title: Ой спи, дитя, без сповиття
+author: Український фольклор
 category: kolyskovi-pisni
 hasYoutube: true
 ---

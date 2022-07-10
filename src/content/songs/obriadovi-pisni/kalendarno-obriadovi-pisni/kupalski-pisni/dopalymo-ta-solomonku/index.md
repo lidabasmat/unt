@@ -1,6 +1,7 @@
 ---
 slug: dopalymo-ta-solomonku
 title: Допалимо та соломоньку
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

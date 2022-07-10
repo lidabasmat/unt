@@ -27,6 +27,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       type Song implements Node {
         slug: String
         title: String
+        author: String
         category: String
         hasYoutube: Boolean
         content: Mdx
@@ -85,6 +86,7 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
       const songContent = {
         slug: `/pisni${createFilePath({ node, getNode })}`,
         title: node.frontmatter.title,
+        author: node.frontmatter.author,
         category: node.frontmatter.category,
         hasYoutube: node.frontmatter.hasYoutube,
         content: node,

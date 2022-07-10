@@ -1,6 +1,7 @@
 ---
 slug: kolo-marenonky-khodyly-divonky
 title: Коло Мареноньки ходили дівоньки
+author: Український фольклор
 category: kupalski-pisni
 hasYoutube: true
 ---

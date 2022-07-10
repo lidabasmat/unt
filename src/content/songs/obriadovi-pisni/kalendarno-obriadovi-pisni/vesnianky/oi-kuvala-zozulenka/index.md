@@ -1,6 +1,7 @@
 ---
 slug: oi-kuvala-zozulenka
 title: Ой кувала зозуленька
+author: Український фольклор
 category: vesnianky
 ---
 ```

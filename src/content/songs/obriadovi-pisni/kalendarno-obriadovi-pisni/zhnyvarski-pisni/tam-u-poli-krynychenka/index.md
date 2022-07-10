@@ -1,6 +1,7 @@
 ---
 slug: tam-u-poli-krynychenka
 title: Там у полі криниченька
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

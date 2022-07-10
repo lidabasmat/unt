@@ -1,6 +1,7 @@
 ---
 slug: shcho-v-kyievi-da-na-rynochku
 title: Що в Києві да на риночку
+author: Український фольклор
 category: koliadky-ta-shchedrivky-divchyni
 ---
 Що в Києві да на риночку,

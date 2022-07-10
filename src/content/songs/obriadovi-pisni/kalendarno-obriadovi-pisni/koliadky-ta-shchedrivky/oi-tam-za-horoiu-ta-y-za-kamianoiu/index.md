@@ -1,6 +1,7 @@
 ---
 slug: oi-tam-za-horoiu-ta-y-za-kamianoiu
 title: Ой там за горою та й за кам’яною
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 Ой там за горою та й за кам’яною.

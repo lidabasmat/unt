@@ -1,6 +1,7 @@
 ---
 slug: oi-odchyniai-panochku-bramu
 title: Ой одчиняй, паночку, браму
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

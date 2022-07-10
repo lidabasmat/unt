@@ -1,6 +1,7 @@
 ---
 slug: perepilonko-mala
 title: Перепілонько мала
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

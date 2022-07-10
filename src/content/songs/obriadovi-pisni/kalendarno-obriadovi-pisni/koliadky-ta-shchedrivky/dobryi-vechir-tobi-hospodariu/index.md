@@ -1,6 +1,7 @@
 ---
 slug: dobryi-vechir-tobi-hospodariu
 title: Добрий вечір тобі, господарю
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodyni
 ---
 ```

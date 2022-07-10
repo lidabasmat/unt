@@ -1,6 +1,7 @@
 ---
 slug: chy-vdoma-vdoma-pani-babunia
 title: Чи вдома, вдома пані бабуня
+author: Український фольклор
 category: koliadky-ta-shchedrivky-babusi
 ---
 ```

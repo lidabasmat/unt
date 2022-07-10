@@ -1,6 +1,7 @@
 ---
 slug: oi-spy-dytia-kolyshu-ti
 title: Ой спи, дитя, колишу ті
+author: Український фольклор
 category: kolyskovi-pisni
 ---
 ```

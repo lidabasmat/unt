@@ -1,6 +1,7 @@
 ---
 slug: kupailo-kupailo
 title: Купайло, Купайло!
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

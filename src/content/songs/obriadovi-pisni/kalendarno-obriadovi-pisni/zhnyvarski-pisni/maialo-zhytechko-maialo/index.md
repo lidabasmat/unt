@@ -1,6 +1,7 @@
 ---
 slug: maialo-zhytechko-maialo
 title: Маяло житечко, маяло
+author: Український фольклор
 category: zhnyvarski-pisni
 hasYoutube: true
 ---

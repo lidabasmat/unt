@@ -1,6 +1,7 @@
 ---
 slug: vyidy-hrytsiu-na-ulytsiu
 title: Вийди Грицю, на улицю
+author: Український фольклор
 category: vesnianky
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: oi-zhny-divcha-pshenychenku
 title: Ой жни, дівча, пшениченьку
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

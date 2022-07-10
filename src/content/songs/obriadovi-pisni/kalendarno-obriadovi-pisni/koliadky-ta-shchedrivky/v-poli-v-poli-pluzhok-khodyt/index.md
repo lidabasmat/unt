@@ -1,6 +1,7 @@
 ---
 slug: v-poli-v-poli-pluzhok-khodyt
 title: В полі, в полі плужок ходить
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 hasYoutube: true
 ---

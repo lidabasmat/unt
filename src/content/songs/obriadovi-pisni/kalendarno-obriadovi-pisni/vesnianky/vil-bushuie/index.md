@@ -1,6 +1,7 @@
 ---
 slug: vil-bushuie
 title: Віл бушує
+author: Український фольклор
 category: vesnianky
 ---
 ```

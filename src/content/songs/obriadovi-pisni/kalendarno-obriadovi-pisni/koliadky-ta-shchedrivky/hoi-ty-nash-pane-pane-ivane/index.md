@@ -1,6 +1,7 @@
 ---
 slug: hoi-ty-nash-pane-pane-ivane
 title: Гой ти, наш пане, пане Іване
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 Гой ти, наш пане, пане Іване,

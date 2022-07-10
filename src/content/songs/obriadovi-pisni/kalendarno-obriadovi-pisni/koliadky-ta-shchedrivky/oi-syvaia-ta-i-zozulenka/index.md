@@ -1,6 +1,7 @@
 ---
 slug: oi-syvaia-ta-i-zozulenka
 title: Ой сивая та і зозуленька
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 hasYoutube: true
 ---

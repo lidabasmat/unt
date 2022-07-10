@@ -1,6 +1,7 @@
 ---
 slug: vzhe-petrivochka-mynaietsia
 title: Вже петрівочка минається
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: svarylas-pshenychenka
 title: Сварилась пшениченька
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

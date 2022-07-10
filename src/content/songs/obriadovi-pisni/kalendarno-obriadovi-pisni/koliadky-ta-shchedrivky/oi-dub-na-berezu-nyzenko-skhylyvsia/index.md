@@ -1,6 +1,7 @@
 ---
 slug: oi-dub-na-berezu-nyzenko-skhylyvsia
 title: Ой дуб на березу низенько схилився
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: a-vzhe-sontse-zapadaie
 title: А вже сонце западає
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

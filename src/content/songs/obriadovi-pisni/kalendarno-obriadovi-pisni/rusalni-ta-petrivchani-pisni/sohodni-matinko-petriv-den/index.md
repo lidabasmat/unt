@@ -1,6 +1,7 @@
 ---
 slug: sohodni-matinko-petriv-den
 title: Сьогодні, матінко, Петрів день
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

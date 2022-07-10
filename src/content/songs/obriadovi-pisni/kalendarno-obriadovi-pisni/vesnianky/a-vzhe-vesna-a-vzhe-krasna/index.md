@@ -1,6 +1,7 @@
 ---
 slug: a-vzhe-vesna-a-vzhe-krasna
 title: А вже весна, а вже красна
+author: Український фольклор
 category: vesnianky
 hasYoutube: true
 ---

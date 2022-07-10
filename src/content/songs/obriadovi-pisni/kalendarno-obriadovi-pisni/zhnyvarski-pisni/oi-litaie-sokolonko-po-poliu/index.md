@@ -1,6 +1,7 @@
 ---
 slug: oi-litaie-sokolonko-po-poliu
 title: Ой літає соколонько по полю
+author: Український фольклор
 category: zhnyvarski-pisni
 hasYoutube: true
 ---

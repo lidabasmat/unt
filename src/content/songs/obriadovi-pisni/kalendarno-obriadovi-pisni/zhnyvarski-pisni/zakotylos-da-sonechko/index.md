@@ -1,6 +1,7 @@
 ---
 slug: zakotylos-da-sonechko
 title: Закотилось да сонечко
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

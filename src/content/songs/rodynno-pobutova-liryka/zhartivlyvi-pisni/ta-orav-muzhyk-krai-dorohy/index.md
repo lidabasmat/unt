@@ -1,6 +1,7 @@
 ---
 slug: ta-orav-muzhyk-krai-dorohy
 title: Та орав мужик край дороги
+author: Український фольклор
 category: zhartivlyvi-pisni
 hasYoutube: true
 ---

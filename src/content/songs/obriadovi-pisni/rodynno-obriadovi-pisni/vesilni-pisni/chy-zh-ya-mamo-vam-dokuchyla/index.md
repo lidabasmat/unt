@@ -1,6 +1,7 @@
 ---
 slug: chy-zh-ya-mamo-vam-dokuchyla
 title: Чи ж я, мамо, вам докучила
+author: Український фольклор
 category: vesilni-pisni
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: odna-hora-vysokaia
 title: Одна гора високая
+author: Український фольклор
 category: zhartivlyvi-pisni
 hasYoutube: true
 ---

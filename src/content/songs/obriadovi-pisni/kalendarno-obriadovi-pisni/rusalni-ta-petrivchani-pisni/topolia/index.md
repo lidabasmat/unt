@@ -1,6 +1,7 @@
 ---
 slug: topolia
 title: Тополя
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 Обмаєну та прибрану намистом і стрічками дівчину водили на Полтавщині по селу, співаючи:

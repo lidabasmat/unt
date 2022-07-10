@@ -1,6 +1,7 @@
 ---
 slug: a-my-rutonku-posiiem-posiiem
 title: А ми рутоньку посієм, посієм
+author: Український фольклор
 category: kupalski-pisni
 ---
 А ми рутоньку посієм, посієм,

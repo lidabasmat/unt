@@ -1,6 +1,7 @@
 ---
 slug: prodai-prodai-hospodariu-syvoho-konia
 title: Продай, продай, господарю, сивого коня
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

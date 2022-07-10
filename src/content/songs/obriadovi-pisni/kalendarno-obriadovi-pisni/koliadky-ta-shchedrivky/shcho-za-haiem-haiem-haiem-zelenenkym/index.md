@@ -1,6 +1,7 @@
 ---
 slug: shcho-za-haiem-haiem-haiem-zelenenkym
 title: Що за гаєм, гаєм, гаєм зелененьким
+author: Український фольклор
 category: koliadky-ta-shchedrivky-parubkovi
 ---
 Що за гаєм, гаєм, гаєм зелененьким

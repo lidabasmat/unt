@@ -1,6 +1,7 @@
 ---
 slug: syroty-za-matiriu
 title: Сироти за матір’ю
+author: Український фольклор
 category: holosinnia
 ---
 ```

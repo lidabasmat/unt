@@ -1,6 +1,7 @@
 ---
 slug: oi-dobraia-bula-nyva
 title: Ой добрая була нива
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

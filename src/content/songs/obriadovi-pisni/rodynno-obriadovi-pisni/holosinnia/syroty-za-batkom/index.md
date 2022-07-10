@@ -1,6 +1,7 @@
 ---
 slug: syroty-za-batkom
 title: Сироти за батьком
+author: Український фольклор
 category: holosinnia
 ---
 ```

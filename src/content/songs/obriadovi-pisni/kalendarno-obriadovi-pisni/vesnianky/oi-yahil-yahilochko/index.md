@@ -1,6 +1,7 @@
 ---
 slug: oi-yahil-yahilochko
 title: Ой ягіл, ягілочко
+author: Український фольклор
 category: vesnianky
 ---
 ```

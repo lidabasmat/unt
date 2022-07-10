@@ -1,6 +1,7 @@
 ---
 slug: kozak-holota
 title: Козак Голота
+author: Український фольклор
 category: dumy
 hasYoutube: true
 ---

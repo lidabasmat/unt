@@ -1,6 +1,7 @@
 ---
 slug: oi-khvalylasia-da-berezonka
 title: Ой хвалилася да березонька
+author: Український фольклор
 category: vesnianky
 ---
 ```

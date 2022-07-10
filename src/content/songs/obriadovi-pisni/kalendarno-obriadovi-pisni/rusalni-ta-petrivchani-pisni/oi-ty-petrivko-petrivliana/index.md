@@ -1,6 +1,7 @@
 ---
 slug: oi-ty-petrivko-petrivliana
 title: Ой ти, петрівко петрівляна
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

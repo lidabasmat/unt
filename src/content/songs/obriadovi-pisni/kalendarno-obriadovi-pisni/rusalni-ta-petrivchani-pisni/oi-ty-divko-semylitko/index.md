@@ -1,6 +1,7 @@
 ---
 slug: oi-ty-divko-semylitko
 title: Ой ти, дівко-семилітко
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

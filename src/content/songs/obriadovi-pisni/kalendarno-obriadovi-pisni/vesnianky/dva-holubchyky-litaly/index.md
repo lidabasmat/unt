@@ -1,6 +1,7 @@
 ---
 slug: dva-holubchyky-litaly
 title: Два голубчики літали
+author: Український фольклор
 category: vesnianky
 hasYoutube: true
 ---

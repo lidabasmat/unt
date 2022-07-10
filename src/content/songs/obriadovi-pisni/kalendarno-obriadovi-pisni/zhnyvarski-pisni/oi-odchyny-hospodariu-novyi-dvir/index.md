@@ -1,6 +1,7 @@
 ---
 slug: oi-odchyny-hospodariu-novyi-dvir
 title: Ой одчини, господарю, новий двір
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

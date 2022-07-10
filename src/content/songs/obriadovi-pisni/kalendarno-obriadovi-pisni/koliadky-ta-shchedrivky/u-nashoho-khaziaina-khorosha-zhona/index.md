@@ -1,6 +1,7 @@
 ---
 slug: u-nashoho-khaziaina-khorosha-zhona
 title: У нашого хазяїна хороша жона
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodyni
 ---
 У нашого хазяїна хороша жона:

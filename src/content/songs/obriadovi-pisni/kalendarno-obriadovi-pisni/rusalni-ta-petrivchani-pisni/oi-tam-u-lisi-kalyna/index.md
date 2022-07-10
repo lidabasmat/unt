@@ -1,6 +1,7 @@
 ---
 slug: oi-tam-u-lisi-kalyna
 title: Ой там у лісі калина
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

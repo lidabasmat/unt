@@ -1,6 +1,7 @@
 ---
 slug: na-hori-hori-pry-monastyri
 title: На горі, горі, при монастирі
+author: Український фольклор
 category: koliadky-ta-shchedrivky-vdovi
 ---
 ```

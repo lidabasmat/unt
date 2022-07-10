@@ -1,6 +1,7 @@
 ---
 slug: buvai-zdorova-nyva
 title: Бувай здорова, нива
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

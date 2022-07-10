@@ -1,6 +1,7 @@
 ---
 slug: za-ditmy-malymy
 title: За дітьми малими
+author: Український фольклор
 category: holosinnia
 ---
 ```

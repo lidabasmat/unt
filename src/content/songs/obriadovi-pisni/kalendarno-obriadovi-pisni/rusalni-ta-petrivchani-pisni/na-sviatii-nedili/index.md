@@ -1,6 +1,7 @@
 ---
 slug: na-sviatii-nedili
 title: На святій неділі
+author: Український фольклор
 category: rusalni-ta-petrivchani-pisni
 ---
 ```

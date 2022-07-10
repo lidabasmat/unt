@@ -1,6 +1,7 @@
 ---
 slug: oi-tam-kolo-dvora-kamiana-hora
 title: Ой там коло двора кам’яна гора
+author: Український фольклор
 category: koliadky-ta-shchedrivky-divchyni
 ---
 Ой там коло двора кам’яна гора.

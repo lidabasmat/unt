@@ -1,6 +1,7 @@
 ---
 slug: zapletu-vinochok
 title: Заплету віночок
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

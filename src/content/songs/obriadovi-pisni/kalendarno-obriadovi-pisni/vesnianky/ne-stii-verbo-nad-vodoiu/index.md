@@ -1,6 +1,7 @@
 ---
 slug: ne-stii-verbo-nad-vodoiu
 title: Не стій, вербо, над водою
+author: Український фольклор
 category: vesnianky
 ---
 ```

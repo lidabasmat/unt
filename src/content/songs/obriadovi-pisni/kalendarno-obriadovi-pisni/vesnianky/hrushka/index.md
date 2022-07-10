@@ -1,6 +1,7 @@
 ---
 slug: hrushka
 title: Грушка
+author: Український фольклор
 category: vesnianky
 ---
 

@@ -1,6 +1,7 @@
 ---
 slug: nasha-maty-doma-domuie
 title: Наша мати дома домує
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

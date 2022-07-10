@@ -1,6 +1,7 @@
 ---
 slug: hop-hop-kozuniu
 title: Гоп-гоп, козуню
+author: Український фольклор
 category: koza-i-malanka
 ---
 ```

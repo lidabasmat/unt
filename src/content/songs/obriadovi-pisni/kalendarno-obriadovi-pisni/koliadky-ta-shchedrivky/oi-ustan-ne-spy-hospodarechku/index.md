@@ -1,6 +1,7 @@
 ---
 slug: oi-ustan-ne-spy-hospodarechku
 title: Ой устань, не спи, господаречку
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 ```

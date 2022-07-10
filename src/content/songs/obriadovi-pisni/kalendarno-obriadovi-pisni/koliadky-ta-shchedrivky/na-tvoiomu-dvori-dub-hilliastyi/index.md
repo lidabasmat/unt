@@ -1,6 +1,7 @@
 ---
 slug: na-tvoiomu-dvori-dub-hilliastyi
 title: На твойому дворі дуб гіллястий
+author: Український фольклор
 category: koliadky-ta-shchedrivky-hospodariu-ta-yoho-rodyni
 ---
 ```

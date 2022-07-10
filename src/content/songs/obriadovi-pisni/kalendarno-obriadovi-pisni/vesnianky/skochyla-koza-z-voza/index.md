@@ -1,6 +1,7 @@
 ---
 slug: skochyla-koza-z-voza
 title: Скочила коза з воза
+author: Український фольклор
 category: vesnianky
 ---
 ```

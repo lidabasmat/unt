@@ -1,6 +1,7 @@
 ---
 slug: oi-do-kintsia-postadnochko-do-kintsia
 title: Ой до кінця, постадночко, до кінця
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```

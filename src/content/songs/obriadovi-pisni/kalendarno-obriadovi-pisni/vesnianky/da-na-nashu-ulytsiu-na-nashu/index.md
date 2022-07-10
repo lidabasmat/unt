@@ -1,6 +1,7 @@
 ---
 slug: da-na-nashu-ulytsiu-na-nashu
 title: Да на нашу улицю, на нашу
+author: Український фольклор
 category: vesnianky
 ---
 ```

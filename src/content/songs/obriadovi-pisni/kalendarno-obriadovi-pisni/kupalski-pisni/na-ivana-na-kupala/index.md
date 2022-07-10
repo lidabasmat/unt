@@ -1,6 +1,7 @@
 ---
 slug: na-ivana-na-kupala
 title: На Івана, на Купала
+author: Український фольклор
 category: kupalski-pisni
 ---
 ```

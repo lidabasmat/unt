@@ -1,6 +1,7 @@
 ---
 slug: v-kyievi-hrim-zahrymiv
 title: В Києві грім загримів
+author: Український фольклор
 category: vesnianky
 ---
 ```

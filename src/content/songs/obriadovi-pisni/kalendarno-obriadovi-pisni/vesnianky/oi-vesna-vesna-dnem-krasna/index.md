@@ -1,6 +1,7 @@
 ---
 slug: oi-vesna-vesna-dnem-krasna
 title: Ой весна, весна — днем красна
+author: Український фольклор
 category: vesnianky
 ---
 ```

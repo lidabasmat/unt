@@ -1,6 +1,7 @@
 ---
 slug: oi-liuli-liuli-bai
 title: Ой люлі-люлі, бай
+author: Український фольклор
 category: kolyskovi-pisni
 ---
 ```

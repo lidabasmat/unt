@@ -1,6 +1,7 @@
 ---
 slug: tsy-doma-doma-khorosha-vdova
 title: Ци дома, дома хороша вдова
+author: Український фольклор
 category: koliadky-ta-shchedrivky-vdovi
 ---
 ```

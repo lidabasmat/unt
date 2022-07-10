@@ -1,6 +1,7 @@
 ---
 slug: a-u-hubchi-sered-sela
 title: А у Губчі серед села
+author: Український фольклор
 category: vesnianky
 ---
 ```

@@ -1,6 +1,7 @@
 ---
 slug: a-my-proso-siialy-siialy
 title: А ми просо сіяли, сіяли
+author: Український фольклор
 category: vesnianky
 ---
 ```

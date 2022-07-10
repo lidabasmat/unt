@@ -1,6 +1,7 @@
 ---
 slug: oi-v-chuzhoho-hospodaria
 title: Ой в чужого господаря
+author: Український фольклор
 category: zhnyvarski-pisni
 ---
 ```
