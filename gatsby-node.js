@@ -42,6 +42,16 @@ exports.createSchemaCustomization = ({ actions }) => {
         meta: MetaFields
       }
     `,
+    `
+      type Tale implements Node {
+        slug: String
+        title: String
+        content: Mdx
+        meta: MetaFields
+        hasYoutube: Boolean
+        author: String
+      }
+    `,
   ];
 
   createTypes(typeDefs)
@@ -124,6 +134,28 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
         ...proverbContent,
       });
     }
+
+    if (parent.internal.type === 'File' && parent.sourceInstanceName === 'tales') {
+      let content = {
+        slug: `/kazky${createFilePath({ node, getNode })}`,
+        title: node.frontmatter.title,
+        content: node,
+        author: node.frontmatter.author,
+        hasYoutube: node.frontmatter.hasYoutube,
+        meta: node.frontmatter.meta,
+      };
+
+      createNode({
+        id: createNodeId(`tale-post-${node.id}`),
+        parent: node.id,
+        children: [],
+        internal: {
+          type: 'Tale',
+          contentDigest: createContentDigest(content),
+        },
+        ...content,
+      });
+    }
   }
 };
 
@@ -133,6 +165,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const jokeTemplate = path.resolve('src/templates/joke.jsx');
   const songTemplate = path.resolve('src/templates/song.jsx');
   const proverbTemplate = path.resolve('src/templates/proverb.jsx');
+  const taleTemplate = path.resolve('src/templates/tale.jsx');
 
   const result = await graphql(`
       {
@@ -147,6 +180,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           }
         }
         proverbs: allProverb {
+          nodes {
+            slug
+          }
+        }
+        tales: allTale {
           nodes {
             slug
           }
@@ -191,6 +229,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: proverbTemplate,
       context: {
         slug: proverb.slug,
+      },
+    });
+  });
+
+  const tales = result.data.tales.nodes;
+
+  tales.forEach((tale) => {
+    createPage({
+      path: tale.slug,
+      component: taleTemplate,
+      context: {
+        slug: tale.slug,
       },
     });
   });

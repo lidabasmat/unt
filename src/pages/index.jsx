@@ -71,7 +71,17 @@ const IndexPage = () => {
                 прислів'я та приказки
               </h3>
               <p className="typo-body mt-4">
-                Короткі влучні вислови
+                Короткі влучні вислови.
+              </p>
+            </Link>
+          </div>
+          <div className="col-full md:col-6 mt-8">
+            <Link to="/kazky/" className="block bg-red-500 text-white px-4 py-4 h-full">
+              <h3 className="typo-h3">
+                казки
+              </h3>
+              <p className="typo-body mt-4">
+                Народна казка - це народна мудрість, філософія і фантазія. Надзвичайні та життєво-повчальні історії.
               </p>
             </Link>
           </div>
