@@ -151,6 +151,10 @@ module.exports = {
             crumbLabel: 'Жартівливі пісні',
           },
           {
+            pathname: '/kazky',
+            crumbLabel: 'Казки',
+          },
+          {
             pathname: '/smikhovyny',
             crumbLabel: 'Сміховини',
           },

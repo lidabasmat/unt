@@ -1,9 +1,11 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
+
+import Breadcrumbs from '../components/Breadcrumbs';
 import Link from '../components/Link';
 import Seo from '../components/Seo';
 
-const TalesPage = () => {
+const TalesPage = ({ pageContext }) => {
   const data = useStaticQuery(graphql`
     query {
       tales1: allTale(filter: {title: {regex: "/^А/"}}) {
@@ -219,7 +221,6 @@ const TalesPage = () => {
   const tales29 = data.tales29.nodes;
   const tales30 = data.tales30.nodes;
 
-
   return (
     <>
       <Seo
@@ -227,7 +228,10 @@ const TalesPage = () => {
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
-          <h1 className="typo-h1 text-white">
+          <Breadcrumbs
+            crumbs={pageContext.breadcrumb.crumbs}
+          />
+          <h1 className="typo-h1 text-white mt-4">
             казки
           </h1>
           <p className="typo-body mt-4 max-w-lg">

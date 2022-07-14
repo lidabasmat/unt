@@ -2,11 +2,12 @@ import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import React from 'react';
 
+import Breadcrumbs from '../components/Breadcrumbs';
 import CustomMDXProvider from '../components/CustomMDXProvider';
 import Seo from '../components/Seo';
 import ShareButtons from '../components/ShareButtons';
 
-const ProverbPage = ({ data, location }) => {
+const ProverbPage = ({ data, location, pageContext }) => {
   const { proverb, site } = data;
 
   return (
@@ -16,24 +17,28 @@ const ProverbPage = ({ data, location }) => {
         description={`${proverb.title}: текст`}
       />
       <div className="container-md py-10 md:py-20">
-      <h1 className="typo-h1">
-        {proverb.title}
-      </h1>
-      <div className="mt-5 md:mt-10">
-        <CustomMDXProvider>
-          <MDXRenderer>
-            {proverb.content.body}
-          </MDXRenderer>
-        </CustomMDXProvider>
-      </div>
-      <div>
-        <h3 className="typo-h3 mt-5 md:mt-14">Поділитися:</h3>
-      </div>
-      <ShareButtons
-        className="mt-5 md:mt-10"
-        title={proverb.title}
-        url={`${site.siteMetadata.siteUrl}${location.pathname}`}
-      />
+        <Breadcrumbs
+          crumbs={pageContext.breadcrumb.crumbs}
+          crumbLabel={proverb.title}
+        />
+        <h1 className="typo-h1 mt-4">
+          {proverb.title}
+        </h1>
+        <div className="mt-5 md:mt-10">
+          <CustomMDXProvider>
+            <MDXRenderer>
+              {proverb.content.body}
+            </MDXRenderer>
+          </CustomMDXProvider>
+        </div>
+        <div>
+          <h3 className="typo-h3 mt-5 md:mt-14">Поділитися:</h3>
+        </div>
+        <ShareButtons
+          className="mt-5 md:mt-10"
+          title={proverb.title}
+          url={`${site.siteMetadata.siteUrl}${location.pathname}`}
+        />
       </div>
     </>
   )

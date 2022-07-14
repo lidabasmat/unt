@@ -29,7 +29,6 @@ const SongPage = ({ data, location, pageContext }) => {
           }`}
         </script>
       </Seo>
-      {console.log(pageContext)}
       <div className="container-md py-10 md:py-20">
         <Breadcrumbs
           crumbs={pageContext.breadcrumb.crumbs}

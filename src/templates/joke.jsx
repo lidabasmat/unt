@@ -2,11 +2,12 @@ import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import React from 'react';
 
+import Breadcrumbs from '../components/Breadcrumbs';
 import CustomMDXProvider from '../components/CustomMDXProvider';
 import Seo from '../components/Seo';
 import ShareButtons from '../components/ShareButtons';
 
-const JokePage = ({ data, location }) => {
+const JokePage = ({ data, location, pageContext }) => {
   const { joke, site } = data;
 
   return (
@@ -15,7 +16,11 @@ const JokePage = ({ data, location }) => {
         title={`${joke.title} - Українська сміховина`}
       />
       <div className="container-md py-10 md:py-20">
-        <h1 className="typo-h1">
+        <Breadcrumbs
+          crumbs={pageContext.breadcrumb.crumbs}
+          crumbLabel={joke.title}
+        />
+        <h1 className="typo-h1 mt-4">
           {joke.title}
         </h1>
         <div className="mt-5 md:mt-10">
