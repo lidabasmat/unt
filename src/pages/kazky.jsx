@@ -1,6 +1,8 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
+import YoutubeIcon from '../components/icons/YoutubeIcon';
+
 import Breadcrumbs from '../components/Breadcrumbs';
 import Link from '../components/Link';
 import Seo from '../components/Seo';
@@ -12,179 +14,209 @@ const TalesPage = ({ pageContext }) => {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales2: allTale(filter: {title: {regex: "/^Б/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales3: allTale(filter: {title: {regex: "/^В/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales4: allTale(filter: {title: {regex: "/^Г/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales5: allTale(filter: {title: {regex: "/^Д/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales6: allTale(filter: {title: {regex: "/^Е/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales7: allTale(filter: {title: {regex: "/^Є/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales8: allTale(filter: {title: {regex: "/^Ж/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales9: allTale(filter: {title: {regex: "/^З/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales10: allTale(filter: {title: {regex: "/^І/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales11: allTale(filter: {title: {regex: "/^Ї/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales12: allTale(filter: {title: {regex: "/^Й/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales13: allTale(filter: {title: {regex: "/^К/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales14: allTale(filter: {title: {regex: "/^Л/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales15: allTale(filter: {title: {regex: "/^М/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales16: allTale(filter: {title: {regex: "/^Н/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales17: allTale(filter: {title: {regex: "/^О/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales18: allTale(filter: {title: {regex: "/^П/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales19: allTale(filter: {title: {regex: "/^Р/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales20: allTale(filter: {title: {regex: "/^С/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }tales21: allTale(filter: {title: {regex: "/^Т/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales22: allTale(filter: {title: {regex: "/^У/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales23: allTale(filter: {title: {regex: "/^Ф/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales24: allTale(filter: {title: {regex: "/^Х/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales25: allTale(filter: {title: {regex: "/^Ц/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales26: allTale(filter: {title: {regex: "/^Ч/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales27: allTale(filter: {title: {regex: "/^Ш/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales28: allTale(filter: {title: {regex: "/^Щ/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales29: allTale(filter: {title: {regex: "/^Ю/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
       tales30: allTale(filter: {title: {regex: "/^Я/"}}) {
         nodes {
           title
           slug
+          hasYoutube
         }
       }
     }
@@ -246,8 +278,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales1.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -258,8 +293,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales2.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -270,8 +308,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales3.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -282,8 +323,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales4.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -294,8 +338,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales5.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -306,8 +353,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales8.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -318,8 +368,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales9.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -330,8 +383,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales10.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -342,8 +398,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales13.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -354,8 +413,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales14.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -366,8 +428,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales15.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -378,8 +443,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales16.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -390,8 +458,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales18.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
@@ -402,8 +473,11 @@ const TalesPage = ({ pageContext }) => {
         <div className="row mt-4">
           {tales19.map((tale) => (
             <div className="col-full md:col-4 mb-4">
-              <Link to={tale.slug} className="typo-small">
+              <Link to={tale.slug} className="typo-small flex items-center">
                 {tale.title}
+                {tale.hasYoutube && (
+                  <YoutubeIcon className="ml-2 w-4 h-4" />
+                )}
               </Link>
             </div>
           ))}
