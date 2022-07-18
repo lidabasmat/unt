@@ -45,18 +45,18 @@ const ZhartivlyviPisniPage = ({ pageContext }) => {
         <h2 className="typo-h2">
           Список жартівливих пісень
         </h2>
-        <div className="row mt-8">
+        <ul className="row mt-8">
           {songs.map((song) => (
-            <div className="col-full md:col-4 mb-4">
+            <li className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
                 {song.title}
                 {song.hasYoutube && (
                   <YoutubeIcon className="ml-2 w-4 h-4" />
                 )}
               </Link>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
