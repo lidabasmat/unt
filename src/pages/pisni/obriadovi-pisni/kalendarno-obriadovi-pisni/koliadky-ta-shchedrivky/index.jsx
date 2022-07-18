@@ -110,18 +110,18 @@ const KoliadkyTaShchedrivkyPage = ({ pageContext }) => {
         <h2 className="typo-h2">
           Колядки та щедрівки господині
         </h2>
-        <div className="row mt-10">
+        <ul className="row mt-10">
           {songs2.map((song) => (
-            <div className="col-full md:col-4 mb-4">
+            <li className="col-full md:col-4 mb-4">
               <Link to={song.slug} className="typo-small flex items-center">
                 {song.title}
                 {song.hasYoutube && (
                   <YoutubeIcon className="ml-2 w-4 h-4" />
                 )}
               </Link>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
       <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
