@@ -22,7 +22,8 @@ const Header = () => {
         <div className="container-lg">
           <div className="flex items-center justify-between">
             <Link to="/">
-              <img src={Logo} alt="logo" />
+              <img src={Logo} alt="Лого – Перлини української народної творчості" />
+              <span className="sr-only">Українська народна творчість – Головна</span>
             </Link>
             <nav className="hidden md:flex items-center">
               <Link to="/pisni/" className="typo-intro">
