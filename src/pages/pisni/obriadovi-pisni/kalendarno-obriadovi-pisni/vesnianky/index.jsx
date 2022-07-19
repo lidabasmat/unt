@@ -59,7 +59,7 @@ const VesniankyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру
+          Опис жанру веснянок
         </h2>
         <p className="typo-body mt-4">
           Веснянки, як видно з самої назви, - це пісні на честь приходу весни; вони здавна відомі багатьом народам. У

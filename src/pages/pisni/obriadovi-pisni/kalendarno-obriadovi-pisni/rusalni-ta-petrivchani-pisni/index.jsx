@@ -68,7 +68,7 @@ const RusalniTaPetrivchaniPisniPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру
+          Опис жанру русальних та петрівчаних пісень
         </h2>
         <p className="typo-body mt-4">
           Русальні пісні виконувалися під час обрядів, пов’язаних з “зеленими святами” чи “клечальною неділею” (кінець

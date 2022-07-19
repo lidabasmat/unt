@@ -59,7 +59,7 @@ const HolosinniaPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру
+          Опис жанру голосінь
         </h2>
         <p className="typo-body mt-4">
           Голосіння — це народно-поетичні твори, пов’язані з похоронним обрядом. В їх основі лежать стародавні уявлення

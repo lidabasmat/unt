@@ -60,7 +60,7 @@ const PisniProKokhanniaPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру
+          Опис жанру пісень про кохання
         </h2>
         <p className="typo-body mt-4">
           Пісні про кохання — становлять найбільший масив родинно-побутової лірики. В них передаються усі перипетії

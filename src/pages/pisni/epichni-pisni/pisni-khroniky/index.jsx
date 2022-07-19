@@ -61,7 +61,7 @@ const PisniKhronikyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру
+          Опис жанру пісень-хронік
         </h2>
         <p className="typo-body mt-4">
           Пісні-хроніки дуже близькі за жанром до історичних пісень і до балад, про які детальніше говоритиметься в

@@ -210,7 +210,7 @@ const KoliadkyTaShchedrivkyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру
+          Опис жанру колядок та щедрівок
         </h2>
         <p className="typo-body mt-4">
           <span className="font-extrabold italic">

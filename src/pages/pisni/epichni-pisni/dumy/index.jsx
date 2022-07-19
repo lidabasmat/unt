@@ -60,7 +60,7 @@ const DumyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру
+          Опис жанру дум
         </h2>
         <p className="typo-body italic mt-4">
           Наша дума, наша пісня
