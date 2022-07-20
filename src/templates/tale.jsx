@@ -14,7 +14,7 @@ const TalePage = ({ data, location, pageContext }) => {
     <>
       <Seo
         title={`${tale.title} - українська народна казка`}
-        description={`${tale.title}: текст казки, аудіозапис`}
+        description={`Українська народна казка “${tale.title}”. Текст та аудіозапис казки.`}
       >
         <script type='application/ld+json'>
           {`{

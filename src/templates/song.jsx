@@ -14,7 +14,7 @@ const SongPage = ({ data, location, pageContext }) => {
     <>
       <Seo
         title={`${song.title} - Українська пісня`}
-        description={`Тексті української пісні: ${song.title}`}
+        description={`Текст української пісні: ${song.title}`}
       >
         <script type='application/ld+json'>
           {`{
