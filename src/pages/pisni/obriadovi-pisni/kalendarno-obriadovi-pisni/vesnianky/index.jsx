@@ -26,6 +26,7 @@ const VesniankyPage = ({ pageContext }) => {
     <>
       <Seo
         title="Веснянки"
+        description="Веснянки - назва старовинних слов'янських обрядових пісень, пов'язаних з початком весни і наближенням весняних польових робіт."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">

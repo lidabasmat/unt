@@ -26,6 +26,7 @@ const VesilniPisniPage = ({ pageContext }) => {
     <>
       <Seo
         title="Весільні пісні"
+        description="Весільні пісні — пісні, що супроводжують весільні обряди, пояснюють їх зміст і значення, прославляють молодих та їх батьків."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
@@ -59,7 +60,7 @@ const VesilniPisniPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру весільних пісень
+          Опис жанру весільної пісні
         </h2>
         <p className="typo-body mt-4">
           Українське традиційне весілля неможливо собі уявити без пісень. Вони — невід’ємна складова частина бучного,

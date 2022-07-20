@@ -257,6 +257,7 @@ const TalesPage = ({ pageContext }) => {
     <>
       <Seo
         title="Казки"
+        description="Казка – це народний або літературний твір про вигадані, часто фантастичні події. Українські народні казки."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">

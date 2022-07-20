@@ -14,7 +14,7 @@ const ProverbPage = ({ data, location, pageContext }) => {
     <>
       <Seo
         title={`${proverb.title} - Прислів'я та приказки`}
-        description={`${proverb.title}: текст`}
+        description={`Українські народні прислів'я та приказки об'єднані загальною темою: ${proverb.title}`}
       />
       <div className="container-md py-10 md:py-20">
         <Breadcrumbs

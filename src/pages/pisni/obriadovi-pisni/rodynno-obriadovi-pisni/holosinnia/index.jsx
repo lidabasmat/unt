@@ -26,6 +26,7 @@ const HolosinniaPage = ({ pageContext }) => {
     <>
       <Seo
         title="Голосіння"
+        description="Голосіння – жанр народної творчостi, художнє вираження туги й горя, болю й розпуки. До жанру голосінь відносять народно-поетичні твори, пов’язані з похоронним обрядом."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">

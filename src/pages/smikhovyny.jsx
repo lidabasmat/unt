@@ -225,6 +225,7 @@ const JokesPage = ({ pageContext }) => {
     <>
       <Seo
         title="Сміховини"
+        description="Сміховина - щось смішне, анекдотична історія, кумедний випадок, сміховинка, анекдота. Українські народні жарти, сміховини та анекдоти."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">

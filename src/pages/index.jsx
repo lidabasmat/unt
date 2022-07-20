@@ -12,6 +12,7 @@ const IndexPage = () => {
     <>
       <Seo
         title="Перлини української народної творчості"
+        description="Українська народна творчість: пісні, казки, сміховини, прислів'я та приказки, скоромовки."
       />
       <div className="bg-red-500 text-white">
         <div
@@ -23,8 +24,8 @@ const IndexPage = () => {
           />
           <div className="row items-center">
             <div className="col-full md:col-6 py-10 md:py-32">
-              <h1 className="typo-h1 max-w-sm">
-                перлини української народної творчості
+              <h1 className="typo-h1 lowercase max-w-sm">
+                Перлини української народної творчості
               </h1>
             </div>
           </div>
