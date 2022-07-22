@@ -44,7 +44,7 @@ const PisniKhronikyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
-          Список пісні-хроніки
+          Список пісень-хронік
         </h2>
         <ul className="row mt-8">
           {songs.map((song) => (
@@ -61,7 +61,7 @@ const PisniKhronikyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру пісень-хронік
+          Опис жанру - пісня-хроніка
         </h2>
         <p className="typo-body mt-4">
           Пісні-хроніки дуже близькі за жанром до історичних пісень і до балад, про які детальніше говоритиметься в

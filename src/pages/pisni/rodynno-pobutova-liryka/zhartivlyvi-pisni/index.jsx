@@ -60,7 +60,7 @@ const ZhartivlyviPisniPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру жартівливої пісні
+          Опис жанру - жартівлива пісня
         </h2>
         <p className="typo-body mt-4">
           Жартівливі пісні — численні за кількістю і розмаїті за тематикою — становлять значний розділ української
