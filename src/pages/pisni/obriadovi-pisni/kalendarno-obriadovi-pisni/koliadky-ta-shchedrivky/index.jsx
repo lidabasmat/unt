@@ -74,6 +74,7 @@ const KoliadkyTaShchedrivkyPage = ({ pageContext }) => {
     <>
       <Seo
         title="Колядки та щедрівки"
+        description="Колядки та щедрівки — пісні, що є важливою складовою чистиною розгорнутого обряду зустрічі Нового року. Виконувався обряд в період зимового сонцевороту (з 24 грудня по 6 січня)."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
@@ -81,8 +82,8 @@ const KoliadkyTaShchedrivkyPage = ({ pageContext }) => {
             crumbs={pageContext.breadcrumb.crumbs}
             crumbLabel="Колядки та щедрівки"
           />
-          <h1 className="typo-h1 mt-4">
-            колядки та щедрівки
+          <h1 className="typo-h1 lowercase mt-4">
+            Колядки та щедрівки
           </h1>
           <p className="typo-body mt-4 max-w-lg">
             Колядки та щедрівки — це обрядові пісні, які виконують під час новорічних та різдвяних свят.
@@ -210,14 +211,14 @@ const KoliadkyTaShchedrivkyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру колядок та щедрівок
+          Опис жанру колядки та щедрівки
         </h2>
         <p className="typo-body mt-4">
           <span className="font-extrabold italic">
             Колядки та щедрівки
           </span>
-           — пісні, що були важливою складовою чистиною колись розгорнутого обряду зустрічі Нового року. Виконувався обряд в період зимового сояцевороту
-          (з 24 грудня по 6 січня).
+          — пісні, що є важливою складовою чистиною розгорнутого обряду зустрічі Нового року. Виконувався обряд в
+          період зимового сонцевороту (з 24 грудня по 6 січня).
         </p>
         <p className="typo-body mt-4">
           Вчені гадають, що колядування й щедрування своїм походженням сягає и епоху патріархально-родового суспільно-економічного устрою. Протягом віків

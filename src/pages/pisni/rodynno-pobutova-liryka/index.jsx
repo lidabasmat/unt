@@ -9,6 +9,7 @@ const RodynnoPobutovaLirykaPage = ({ pageContext }) => {
     <>
       <Seo
         title="Родинно-побутова лірика"
+        description="Родинно-побутові пісні — це ліричні поетично-музичні твори, в яких відбиті почуття, переживання, думки людини, пов'язані з її особистим життям, подіями в сім'ї, родинними стосунками."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
@@ -52,7 +53,7 @@ const RodynnoPobutovaLirykaPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру
+          Опис жанру родинно-побутової лірики
         </h2>
         <p className="typo-body mt-4">
           Родинно-побутові пісні — це ліричні поетично-музичні твори, в яких відбиті почуття, переживання, думки людини,

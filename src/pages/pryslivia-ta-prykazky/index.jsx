@@ -24,6 +24,7 @@ const ProverbsPage = ({ pageContext }) => {
     <>
       <Seo
         title="Прислів'я та приказки"
+        description="Прислів'я — мала форма народної поетичної творчості, короткий, ритмізований вислів, що несе узагальнену думку, висновок, іносказання з дидактичним ухилом."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">

@@ -9,6 +9,7 @@ const RodynnoObriadoviPisniPage = ({ pageContext }) => {
     <>
       <Seo
         title="Родинно-обрядові пісні"
+        description="Родинно-обрядові пісні — цикл, що супроводжує обрядові пісні, пов'язані із такими найважливішими родинними подіями, як народження, створення сім'ї, смерть."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
@@ -42,7 +43,7 @@ const RodynnoObriadoviPisniPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис родинно-обрядових пісень
+          Опис жанру родинно-обрядової пісні
         </h2>
         <p className="typo-body mt-4">
           Родинно-обрядові пісні – найдавніші за походженням, пройшли багатовіковий розвиток і побутують у народі до

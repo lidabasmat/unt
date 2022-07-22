@@ -13,7 +13,7 @@ const JokePage = ({ data, location, pageContext }) => {
   return (
     <>
       <Seo
-        title={`${joke.title} - Українська сміховина`}
+        title={`${joke.title} - Українська народна сміховина`}
       />
       <div className="container-md py-10 md:py-20">
         <Breadcrumbs

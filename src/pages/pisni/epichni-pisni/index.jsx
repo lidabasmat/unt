@@ -9,6 +9,7 @@ const EpichniPisniPage = ({ pageContext }) => {
     <>
       <Seo
         title="Епічні пісні"
+        description="Епічні пісні – давні фольклорні віршовані твори, що розповідають про народних героїв та їхні подвиги. Українські народні епічні пісні."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">

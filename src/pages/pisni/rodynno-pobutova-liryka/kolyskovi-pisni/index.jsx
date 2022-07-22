@@ -60,7 +60,7 @@ const KolyskoviPisniPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру колискових пісень
+          Опис жанру колискової пісні
         </h2>
         <p className="typo-body mt-4">
           Колискові пісні виділені в окремий цикл родинно-побутових пісень, так як мають індивідуальну особливість та

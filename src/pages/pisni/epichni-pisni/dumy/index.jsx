@@ -43,7 +43,7 @@ const DumyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
-          Список дум
+          Список думи
         </h2>
         <ul className="row mt-8">
           {songs.map((song) => (

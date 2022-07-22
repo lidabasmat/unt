@@ -26,7 +26,7 @@ const PisniKhronikyPage = ({ pageContext }) => {
     <>
       <Seo
         title="Пісні-хроніки"
-        description="Пісні-хроніки — є літературним жанром, який відображає неординарні, виняткові події громадсько-побутового та родинно-побутового характеру"
+        description="Пісні-хроніки — є літературним жанром, який відображає неординарні, виняткові події громадсько-побутового та родинно-побутового характеру."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
@@ -44,7 +44,7 @@ const PisniKhronikyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg mt-10 md:mt-24">
         <h2 className="typo-h2">
-          Список пісень-хронік
+          Список пісні-хроніки
         </h2>
         <ul className="row mt-8">
           {songs.map((song) => (

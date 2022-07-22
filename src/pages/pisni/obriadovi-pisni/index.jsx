@@ -9,6 +9,7 @@ const ObriadoviPisniPage = ({ pageContext }) => {
     <>
       <Seo
         title="Обрядові пісні"
+        description="Обрядові пісні – народні поетичні твори, які супроводжують родинні (весілля, похорон) та календарні (колядки, гаївки-веснянки, русальні, купальські, жнивні) обряди."
       />
       <div className="bg-red-500 text-white">
         <div className="container-lg py-10 md:py-24">
