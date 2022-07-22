@@ -60,7 +60,7 @@ const DumyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру - дума
+          Опис жанру думи
         </h2>
         <p className="typo-body mt-4">
           З фольклорних джерел українських пісень в книзі Кобзар недарма виділена саме дума, напророкувавши їй уславлене

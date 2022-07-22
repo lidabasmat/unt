@@ -60,7 +60,7 @@ const IstorychniPisniPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру - історична пісня
+          Опис жанру історичної пісні
         </h2>
         <p className="typo-body mt-4">
           Основними персонажами пісень цього жанру являються історичні особистості, великі справи яких, назавжди

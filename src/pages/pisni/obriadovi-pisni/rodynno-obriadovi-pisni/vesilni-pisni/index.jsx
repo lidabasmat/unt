@@ -60,7 +60,7 @@ const VesilniPisniPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру - весільна пісня
+          Опис жанру весільної пісні
         </h2>
         <p className="typo-body mt-4">
           Українське традиційне весілля неможливо собі уявити без пісень. Вони — невід’ємна складова частина бучного,

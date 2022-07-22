@@ -1,5 +1,4 @@
-import { graphql, useStaticQuery } from 'gatsby';
-import * as React from "react";
+import React, { useState } from "react";
 import Link from '../components/Link';
 import Seo from '../components/Seo';
 import OrnamentSource from '../images/ornament.svg';
@@ -22,7 +21,7 @@ const IndexPage = () => {
             className="hidden md:block absolute inset-0 bg-no-repeat bg-right-top"
             style={{ backgroundImage: `url(${HeroVisualSource})` }}
           />
-          <div className="row items-center">
+          <div className="row items-center relative">
             <div className="col-full md:col-6 py-10 md:py-32">
               <h1 className="typo-h1 lowercase max-w-sm">
                 Перлини української народної творчості

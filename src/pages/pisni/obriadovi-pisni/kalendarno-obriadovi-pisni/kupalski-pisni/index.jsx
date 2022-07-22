@@ -60,7 +60,7 @@ const KupalskiPisniPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру - купальська пісня
+          Опис жанру купальської пісні
         </h2>
         <p className="typo-body mt-4">
           Купальські пісні виконувалися на святі Івана Купала, знаного в усьому язичницькому світі. Стародавній сенс

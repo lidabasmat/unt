@@ -60,7 +60,7 @@ const PisniProRodynneZhyttiaPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру - пісня про родинне життя
+          Опис жанру пісні про родинне життя
         </h2>
         <p className="typo-body mt-4">
           Пісні про родинне життя — говорять про радість і смуток, щастя материнства й горе сирітства, сімейну злагоду

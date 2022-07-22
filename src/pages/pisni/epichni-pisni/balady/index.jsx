@@ -60,7 +60,7 @@ const BaladyPage = ({ pageContext }) => {
       </div>
       <div className="container-lg py-10 md:py-24">
         <h2 className="typo-h2">
-          Опис жанру - балада
+          Опис жанру балади
         </h2>
         <p className="typo-body mt-4">
           Балада — як жанр фольклору ввійшла у вітчизняну науку на початку ХІХ ст. Український дослідник слов’янського
