@@ -52,6 +52,16 @@ exports.createSchemaCustomization = ({ actions }) => {
         author: String
       }
     `,
+    `
+      type Blog implements Node {
+        slug: String
+        title: String
+        content: Mdx
+        meta: MetaFields
+        hasYoutube: Boolean
+        author: String
+      }
+    `
   ];
 
   createTypes(typeDefs)
@@ -156,6 +166,28 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
         ...content,
       });
     }
+
+    if (parent.internal.type === 'File' && parent.sourceInstanceName === 'blogs') {
+      let content = {
+        slug: `/blog${createFilePath({ node, getNode })}`,
+        title: node.frontmatter.title,
+        content: node,
+        author: node.frontmatter.author,
+        hasYoutube: node.frontmatter.hasYoutube,
+        meta: node.frontmatter.meta,
+      };
+
+      createNode({
+        id: createNodeId(`blog-post-${node.id}`),
+        parent: node.id,
+        children: [],
+        internal: {
+          type: 'Blog',
+          contentDigest: createContentDigest(content),
+        },
+        ...content,
+      });
+    }
   }
 };
 
@@ -166,6 +198,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const songTemplate = path.resolve('src/templates/song.jsx');
   const proverbTemplate = path.resolve('src/templates/proverb.jsx');
   const taleTemplate = path.resolve('src/templates/tale.jsx');
+  const blogTemplate = path.resolve('src/templates/blog.jsx');
 
   const result = await graphql(`
       {
@@ -185,6 +218,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           }
         }
         tales: allTale {
+          nodes {
+            slug
+          }
+        }
+        blogs: allBlog {
           nodes {
             slug
           }
@@ -241,6 +279,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       component: taleTemplate,
       context: {
         slug: tale.slug,
+      },
+    });
+  });
+
+  const blogs = result.data.blogs.nodes;
+
+  blogs.forEach((blog) => {
+    createPage({
+      path: blog.slug,
+      component: blogTemplate,
+      context: {
+        slug: blog.slug,
       },
     });
   });
