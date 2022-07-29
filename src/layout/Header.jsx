@@ -41,6 +41,10 @@ const Header = () => {
               <Link to="/pryslivia-ta-prykazky/" className="typo-intro">
                 прислів'я та приказки
               </Link>
+              <div className="w-2 h-2 mx-8 bg-white" />
+              <Link to="/blog/" className="typo-intro">
+                блог
+              </Link>
             </nav>
             <div className="md:hidden">
               <Button onClick={() => { setOpened(!opened) }}>
@@ -82,6 +86,10 @@ const Header = () => {
           <div onClick={() => { navigateTo('/pryslivia-ta-prykazky/') }} className="flex items-center typo-intro py-5 px-4">
             <span className="inline-block w-2 h-2 bg-white mr-4" />
             прислів'я та приказки
+          </div>
+          <div onClick={() => { navigateTo('/blog/') }} className="flex items-center typo-intro py-5 px-4">
+            <span className="inline-block w-2 h-2 bg-white mr-4" />
+            блог
           </div>
         </div>
       </div>
