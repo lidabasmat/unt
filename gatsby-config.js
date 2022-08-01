@@ -45,6 +45,13 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogs`,
+        path: `${__dirname}/src/content/blogs`,
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "gatsby-starter-kit",
@@ -165,7 +172,11 @@ module.exports = {
           {
             pathname: '/pryslivia-ta-prykazky',
             crumbLabel: `Прислів'я та приказки`
-          }
+          },
+          {
+            pathname: '/blog',
+            crumbLabel: 'Блог',
+          },
         ],
       },
     },

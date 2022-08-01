@@ -128,6 +128,10 @@
   .col-11 {
     @apply col flex-11/12 min-w-11/12;
   }
+
+  .btn-primary {
+    @apply bg-red-500 text-white;
+  }
 }
 
 @layer utilities {

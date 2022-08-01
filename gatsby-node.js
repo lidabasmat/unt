@@ -56,10 +56,12 @@ exports.createSchemaCustomization = ({ actions }) => {
       type Blog implements Node {
         slug: String
         title: String
-        content: Mdx
-        meta: MetaFields
-        hasYoutube: Boolean
+        description: String
         author: String
+        tags: [String]
+        date: Date @dateformat
+        meta: MetaFields
+        content: Mdx
       }
     `
   ];
@@ -171,9 +173,11 @@ exports.onCreateNode = ({ node, actions, getNode, createNodeId, createContentDig
       let content = {
         slug: `/blog${createFilePath({ node, getNode })}`,
         title: node.frontmatter.title,
+        description: node.frontmatter.description,
         content: node,
+        date: node.frontmatter.date,
+        tags: node.frontmatter.tags,
         author: node.frontmatter.author,
-        hasYoutube: node.frontmatter.hasYoutube,
         meta: node.frontmatter.meta,
       };
 
